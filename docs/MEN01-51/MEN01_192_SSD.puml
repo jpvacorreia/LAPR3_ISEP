@@ -1,0 +1,18 @@
+@startuml
+autonumber
+actor "Courier" as COUR
+
+activate COUR
+COUR -> ":Platform" : Wants to find the best delivery route
+activate ":Platform"
+":Platform" --> COUR : shows the best estimated route
+deactivate ":Platform"
+
+COUR -> ":Platform" : confirms the given route
+activate ":Platform"
+
+":Platform" --> COUR : successful operation
+deactivate ":Platform"
+
+deactivate COUR
+@enduml

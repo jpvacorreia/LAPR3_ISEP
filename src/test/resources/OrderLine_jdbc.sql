@@ -1,0 +1,23 @@
+CREATE OR REPLACE PROCEDURE addOrderLine(idOrder NUMBER, idProduct NUMBER, quantity NUMBER)
+AS
+    BEGIN
+        INSERT INTO ORDERLINE VALUES(idOrder, idProduct, quantity);
+    end;
+/
+
+CREATE OR REPLACE FUNCTION getOrderLinesFromOrder(idOrder NUMBER)
+RETURN SYS_REFCURSOR
+AS
+    ord SYS_REFCURSOR;
+BEGIN
+    OPEN ord FOR SELECT * FROM ORDERLINE WHERE ORDERID_ORDER = idOrder;
+    RETURN ord;
+end;
+/
+
+CREATE OR REPLACE PROCEDURE removeOrderLine(idOrder NUMBER, idProduct NUMBER)
+AS
+    BEGIN
+        DELETE FROM ORDERLINE WHERE ORDERID_ORDER = idOrder AND PRODUCTID_PRODUCT = idProduct;
+    end;
+/

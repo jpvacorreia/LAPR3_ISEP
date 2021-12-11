@@ -1,0 +1,11 @@
+@startuml
+autonumber
+actor "Courier" as COURIER
+
+activate COURIER
+COURIER -> ":Platform" : Places Scooter to charge
+activate ":Platform"
+":Platform" --> COURIER : Recieves notification regarding the \ncharging time and locking status
+deactivate ":Platform"
+deactivate COURIER
+@enduml

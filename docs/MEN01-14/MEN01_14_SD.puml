@@ -1,0 +1,39 @@
+@startuml
+autonumber
+title MEN01-14_SD
+participant "rclnt: RegisterClient" as RCLNT
+participant ":Platform" as PLAT
+participant "clnt: Client" as CLNT
+participant "<<interface>>\n alg: PasswordGeneratorAlgorithm" as PASS
+participant "user: User" as USER
+
+
+RCLNT -> RCLNT: RegisterClientAsUser()
+
+RCLNT -> CLNT: email = getEmail()
+activate CLNT
+deactivate CLNT
+
+activate RCLNT
+RCLNT -> CLNT: userType = getUserType()
+activate CLNT
+deactivate CLNT
+
+RCLNT -> PLAT: alg=getPasswordGeneratorAlgorithm()
+activate PLAT
+deactivate PLAT
+
+RCLNT -> PASS: pwd=generatesPassword(email, userType)
+activate PASS
+deactivate PASS
+
+RCLNT -> USER : registerUser(email, pwd, ['Client'])
+activate USER
+deactivate USER
+
+
+RCLNT -> RCLNT : sendEmail(email, pwd)
+
+
+@enduml
+

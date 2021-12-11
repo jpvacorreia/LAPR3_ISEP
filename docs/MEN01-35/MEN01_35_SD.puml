@@ -1,0 +1,30 @@
+@startuml
+autonumber
+
+actor "System" as SYS
+participant "Order :\nOrder" as ORD
+participant "ordLine :\nOrderLine" as ORDL
+participant "Stock :\nStock" as STK
+participant "stkLine :\nStockLine" as STKL
+
+activate SYS
+
+SYS -> SYS : order payment goes through
+activate ORD
+loop
+SYS -> ORD : ordLine = getOrderLine()
+SYS -> ORD : pharmaID = getPharmacyID()
+deactivate ORD
+activate ORDL
+SYS -> ORDL : idProduct = getProductID()
+deactivate ORDL
+activate STK
+SYS -> STK : stkLine = getStkLine(idProduct, pharmaID)
+deactivate STK
+activate STKL
+SYS -> STKL : removeStock()
+deactivate STKL
+deactivate SYS
+end loop
+@enduml
+

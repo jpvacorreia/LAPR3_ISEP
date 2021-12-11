@@ -1,0 +1,44 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+left to right direction
+
+class Platform {
+}
+
+class CreateOrderUI {
+}
+
+class CreateOrderController {
+    +makePayment()
+}
+
+class Client {
+  -String name
+  -String email
+  -int NIF
+  -int creditCardNumber
+  -int creditCardValidity
+  -int ccv
+  -Address address
+}
+
+class Order {
+    -int orderID
+    -int clientID
+    -int state
+    -Date orderDate
+    -ArrayList<OrderLine> cart
+}
+
+
+CreateOrderUI ..> CreateOrderController
+CreateOrderController ..> Platform
+CreateOrderController ..> Client
+CreateOrderController ..> Order
+Order "1" -- "1" Client : Of a  >
+
+
+@enduml
+
+

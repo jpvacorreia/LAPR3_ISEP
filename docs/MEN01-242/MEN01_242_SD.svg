@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1076.25px" preserveAspectRatio="none" style="width:1598px;height:1076px;" version="1.1" viewBox="0 0 1598 1076" width="1598.75px" zoomAndPan="magnify"><defs><filter height="300%" id="f1juz6icj4x8zt" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="822.9102" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="86.875" y="124.5117"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="151.3184" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="364.375" y="152.4512"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="151.3184" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="364.375" y="341.709"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="189.2578" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="364.375" y="530.9668"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="189.2578" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="364.375" y="758.1641"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="75.4395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="594.375" y="190.3906"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="75.4395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="594.375" y="379.6484"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="113.3789" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="594.375" y="568.9063"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="113.3789" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="594.375" y="796.1035"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="951.875" y="417.5879"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="75.4395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="951.875" y="606.8457"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="75.4395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="951.875" y="834.043"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1085.625" y="228.3301"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1233.75" y="644.7852"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1550.625" y="871.9824"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="92.5" x2="92.5" y1="112.0117" y2="969.9219"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="370.625" x2="370.625" y1="112.0117" y2="969.9219"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="600.625" x2="600.625" y1="112.0117" y2="969.9219"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="958.125" x2="958.125" y1="112.0117" y2="969.9219"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1091.875" x2="1091.875" y1="112.0117" y2="969.9219"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1239.375" x2="1239.375" y1="112.0117" y2="969.9219"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1421.875" x2="1421.875" y1="112.0117" y2="969.9219"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1556.875" x2="1556.875" y1="112.0117" y2="969.9219"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="166.25" x="6.25" y="108.1665">System Administrator</text><ellipse cx="93.125" cy="18.75" fill="#FEFECE" filter="url(#f1juz6icj4x8zt)" rx="10" ry="10" style="stroke:#A80036;stroke-width:2.5;"/><path d="M93.125,28.75 L93.125,62.5 M76.875,38.75 L109.375,38.75 M93.125,62.5 L76.875,81.25 M93.125,62.5 L109.375,81.25 " fill="none" filter="url(#f1juz6icj4x8zt)" style="stroke:#A80036;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="166.25" x="6.25" y="986.8384">System Administrator</text><ellipse cx="93.125" cy="1003.1836" fill="#FEFECE" filter="url(#f1juz6icj4x8zt)" rx="10" ry="10" style="stroke:#A80036;stroke-width:2.5;"/><path d="M93.125,1013.1836 L93.125,1046.9336 M76.875,1023.1836 L109.375,1023.1836 M93.125,1046.9336 L76.875,1065.6836 M93.125,1046.9336 L109.375,1065.6836 " fill="none" filter="url(#f1juz6icj4x8zt)" style="stroke:#A80036;stroke-width:2.5;"/><rect fill="#FEFECE" filter="url(#f1juz6icj4x8zt)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="137.5" x="299.375" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="120" x="308.125" y="93.1665">:SimulateRunUI</text><rect fill="#FEFECE" filter="url(#f1juz6icj4x8zt)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="137.5" x="299.375" y="968.6719"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="120" x="308.125" y="995.5884">:SimulateRunUI</text><rect fill="#FEFECE" filter="url(#f1juz6icj4x8zt)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="200" x="498.125" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="182.5" x="506.875" y="93.1665">:SimulateRunController</text><rect fill="#FEFECE" filter="url(#f1juz6icj4x8zt)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="200" x="498.125" y="968.6719"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="182.5" x="506.875" y="995.5884">:SimulateRunController</text><rect fill="#FEFECE" filter="url(#f1juz6icj4x8zt)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="122.5" x="894.375" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="105" x="903.125" y="93.1665">:SimulateRun</text><rect fill="#FEFECE" filter="url(#f1juz6icj4x8zt)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="122.5" x="894.375" y="968.6719"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="105" x="903.125" y="995.5884">:SimulateRun</text><rect fill="#FEFECE" filter="url(#f1juz6icj4x8zt)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="110" x="1034.375" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="87.5" x="1043.125" y="93.1665">ord : Order</text><rect fill="#FEFECE" filter="url(#f1juz6icj4x8zt)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="110" x="1034.375" y="968.6719"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="87.5" x="1043.125" y="995.5884">ord : Order</text><rect fill="#FEFECE" filter="url(#f1juz6icj4x8zt)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="151.25" x="1161.875" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="133.75" x="1170.625" y="93.1665">dR : DeliveryRun</text><rect fill="#FEFECE" filter="url(#f1juz6icj4x8zt)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="151.25" x="1161.875" y="968.6719"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="133.75" x="1170.625" y="995.5884">dR : DeliveryRun</text><rect fill="#FEFECE" filter="url(#f1juz6icj4x8zt)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="178.75" x="1330.625" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="161.25" x="1339.375" y="93.1665">dRR : DeliveryRoute</text><rect fill="#FEFECE" filter="url(#f1juz6icj4x8zt)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="178.75" x="1330.625" y="968.6719"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="161.25" x="1339.375" y="995.5884">dRR : DeliveryRoute</text><rect fill="#FEFECE" filter="url(#f1juz6icj4x8zt)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="55" x="1526.875" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="37.5" x="1535.625" y="93.1665">DRR</text><rect fill="#FEFECE" filter="url(#f1juz6icj4x8zt)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="55" x="1526.875" y="968.6719"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="37.5" x="1535.625" y="995.5884">DRR</text><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="822.9102" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="86.875" y="124.5117"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="151.3184" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="364.375" y="152.4512"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="151.3184" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="364.375" y="341.709"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="189.2578" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="364.375" y="530.9668"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="189.2578" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="364.375" y="758.1641"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="75.4395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="594.375" y="190.3906"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="75.4395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="594.375" y="379.6484"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="113.3789" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="594.375" y="568.9063"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="113.3789" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="594.375" y="796.1035"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="951.875" y="417.5879"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="75.4395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="951.875" y="606.8457"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="75.4395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="951.875" y="834.043"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1085.625" y="228.3301"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1233.75" y="644.7852"/><rect fill="#FFFFFF" filter="url(#f1juz6icj4x8zt)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1550.625" y="871.9824"/><polygon fill="#A80036" points="349.375,147.4512,361.875,152.4512,349.375,157.4512,354.375,152.4512" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="99.375" x2="356.875" y1="152.4512" y2="152.4512"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="108.125" y="146.3806">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="227.5" x="121.875" y="146.3806">wants to simulate a delivery run</text><polygon fill="#A80036" points="579.375,185.3906,591.875,190.3906,579.375,195.3906,584.375,190.3906" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="376.875" x2="586.875" y1="190.3906" y2="190.3906"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="385.625" y="184.3201">2</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="146.25" x="399.375" y="184.3201">getAllReadyOrders()</text><polygon fill="#A80036" points="1070.625,223.3301,1083.125,228.3301,1070.625,233.3301,1075.625,228.3301" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="606.875" x2="1078.125" y1="228.3301" y2="228.3301"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="615.625" y="222.2595">3</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="146.25" x="629.375" y="222.2595">getAllReadyOrders()</text><polygon fill="#A80036" points="113.125,298.7695,100.625,303.7695,113.125,308.7695,108.125,303.7695" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="105.625" x2="369.375" y1="303.7695" y2="303.7695"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="120.625" y="297.699">4</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="183.75" x="134.375" y="297.699">shows all available orders</text><polygon fill="#A80036" points="349.375,336.709,361.875,341.709,349.375,346.709,354.375,341.709" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="99.375" x2="356.875" y1="341.709" y2="341.709"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="108.125" y="335.6384">5</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="111.25" x="121.875" y="335.6384">chooses orders</text><polygon fill="#A80036" points="579.375,374.6484,591.875,379.6484,579.375,384.6484,584.375,379.6484" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="376.875" x2="586.875" y1="379.6484" y2="379.6484"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="385.625" y="373.5779">6</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="155" x="399.375" y="373.5779">generateDeliveryList()</text><polygon fill="#A80036" points="936.875,412.5879,949.375,417.5879,936.875,422.5879,941.875,417.5879" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="606.875" x2="944.375" y1="417.5879" y2="417.5879"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="615.625" y="411.5173">7</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="307.5" x="629.375" y="411.5173">generateDeliveryList(List&lt;Order&gt; toDeliver)</text><polygon fill="#A80036" points="113.125,488.0273,100.625,493.0273,113.125,498.0273,108.125,493.0273" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="105.625" x2="369.375" y1="493.0273" y2="493.0273"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="120.625" y="486.9568">8</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="163.75" x="134.375" y="486.9568">shows delivery method</text><polygon fill="#A80036" points="349.375,525.9668,361.875,530.9668,349.375,535.9668,354.375,530.9668" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="99.375" x2="356.875" y1="530.9668" y2="530.9668"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="108.125" y="524.8962">9</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="178.75" x="121.875" y="524.8962">chooses delivery method</text><polygon fill="#A80036" points="579.375,563.9063,591.875,568.9063,579.375,573.9063,584.375,568.9063" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="376.875" x2="586.875" y1="568.9063" y2="568.9063"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="385.625" y="562.8357">10</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="157.5" x="408.125" y="562.8357">generateDeliveryRun()</text><polygon fill="#A80036" points="936.875,601.8457,949.375,606.8457,936.875,611.8457,941.875,606.8457" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="606.875" x2="944.375" y1="606.8457" y2="606.8457"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="615.625" y="600.7751">11</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="156.25" x="638.125" y="600.7751">createSimulatedRun()</text><polygon fill="#A80036" points="1218.75,639.7852,1231.25,644.7852,1218.75,649.7852,1223.75,644.7852" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="964.375" x2="1226.25" y1="644.7852" y2="644.7852"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="973.125" y="638.7146">12</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="128.75" x="995.625" y="638.7146">new DeliveryRun()</text><polygon fill="#A80036" points="113.125,715.2246,100.625,720.2246,113.125,725.2246,108.125,720.2246" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="105.625" x2="369.375" y1="720.2246" y2="720.2246"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="120.625" y="714.1541">13</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="178.75" x="143.125" y="714.1541">shows simulation criteria</text><polygon fill="#A80036" points="349.375,753.1641,361.875,758.1641,349.375,763.1641,354.375,758.1641" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="99.375" x2="356.875" y1="758.1641" y2="758.1641"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="108.125" y="752.0935">14</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="193.75" x="130.625" y="752.0935">chooses simulation criteria</text><polygon fill="#A80036" points="579.375,791.1035,591.875,796.1035,579.375,801.1035,584.375,796.1035" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="376.875" x2="586.875" y1="796.1035" y2="796.1035"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="385.625" y="790.033">15</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="171.25" x="408.125" y="790.033">generateDeliveryRoute()</text><polygon fill="#A80036" points="936.875,829.043,949.375,834.043,936.875,839.043,941.875,834.043" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="606.875" x2="944.375" y1="834.043" y2="834.043"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="615.625" y="827.9724">16</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="171.25" x="638.125" y="827.9724">generateDeliveryRoute()</text><polygon fill="#A80036" points="1535.625,866.9824,1548.125,871.9824,1535.625,876.9824,1540.625,871.9824" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="964.375" x2="1543.125" y1="871.9824" y2="871.9824"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="973.125" y="865.9119">17</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="128.75" x="995.625" y="865.9119">new DeliveryRun()</text><polygon fill="#A80036" points="106.875,942.4219,94.375,947.4219,106.875,952.4219,101.875,947.4219" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="99.375" x2="369.375" y1="947.4219" y2="947.4219"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="114.375" y="941.3513">18</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="100" x="136.875" y="941.3513">shows results</text><!--MD5=[8d57080c24a8aa2c3cfc97b9ddf0a644]
+@startuml
+autonumber
+'hide footbox
+actor "System Administrator" as SADM
+
+participant ":SimulateRunUI" as UI
+participant ":SimulateRunController" as CTRL
+participant ":SimulateRun" as SR
+participant "ord : Order " as ord 
+participant "dR : DeliveryRun" as dR
+participant "dRR : DeliveryRoute" as dRR
+
+
+
+activate SADM
+
+SADM -> UI : wants to simulate a delivery run
+activate UI
+UI - -> CTRL : getAllReadyOrders()
+activate CTRL
+CTRL - -> ord : getAllReadyOrders()
+activate ord
+deactivate ord
+deactivate CTRL
+UI - -> SADM : shows all available orders
+deactivate UI
+
+SADM -> UI : chooses orders
+activate UI
+UI -> CTRL : generateDeliveryList()
+activate CTRL
+CTRL -> SR  : generateDeliveryList(List<Order> toDeliver)
+activate SR
+deactivate SR
+deactivate CTRL
+UI - -> SADM : shows delivery method
+deactivate UI
+
+SADM -> UI : chooses delivery method
+activate UI
+UI -> CTRL : generateDeliveryRun()
+activate CTRL
+CTRL -> SR : createSimulatedRun()
+activate SR
+SR  -> dR : new DeliveryRun()
+activate dR
+deactivate dR
+deactivate SR
+deactivate CTRL
+
+UI - -> SADM : shows simulation criteria
+deactivate UI
+SADM - -> UI : chooses simulation criteria
+activate UI
+UI - -> CTRL : generateDeliveryRoute()
+activate CTRL
+CTRL - -> SR : generateDeliveryRoute()
+activate SR
+SR - -> DRR : new DeliveryRun()
+activate DRR
+deactivate DRR
+deactivate SR
+deactivate CTRL
+UI - -> SADM : shows results
+deactivate UI
+deactivate SADM
+
+
+deactivate UI
+deactivate SADM
+
+@enduml
+
+@startuml
+autonumber
+actor "System Administrator" as SADM
+
+participant ":SimulateRunUI" as UI
+participant ":SimulateRunController" as CTRL
+participant ":SimulateRun" as SR
+participant "ord : Order " as ord 
+participant "dR : DeliveryRun" as dR
+participant "dRR : DeliveryRoute" as dRR
+
+
+
+activate SADM
+
+SADM -> UI : wants to simulate a delivery run
+activate UI
+UI - -> CTRL : getAllReadyOrders()
+activate CTRL
+CTRL - -> ord : getAllReadyOrders()
+activate ord
+deactivate ord
+deactivate CTRL
+UI - -> SADM : shows all available orders
+deactivate UI
+
+SADM -> UI : chooses orders
+activate UI
+UI -> CTRL : generateDeliveryList()
+activate CTRL
+CTRL -> SR  : generateDeliveryList(List<Order> toDeliver)
+activate SR
+deactivate SR
+deactivate CTRL
+UI - -> SADM : shows delivery method
+deactivate UI
+
+SADM -> UI : chooses delivery method
+activate UI
+UI -> CTRL : generateDeliveryRun()
+activate CTRL
+CTRL -> SR : createSimulatedRun()
+activate SR
+SR  -> dR : new DeliveryRun()
+activate dR
+deactivate dR
+deactivate SR
+deactivate CTRL
+
+UI - -> SADM : shows simulation criteria
+deactivate UI
+SADM - -> UI : chooses simulation criteria
+activate UI
+UI - -> CTRL : generateDeliveryRoute()
+activate CTRL
+CTRL - -> SR : generateDeliveryRoute()
+activate SR
+SR - -> DRR : new DeliveryRun()
+activate DRR
+deactivate DRR
+deactivate SR
+deactivate CTRL
+UI - -> SADM : shows results
+deactivate UI
+deactivate SADM
+
+
+deactivate UI
+deactivate SADM
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

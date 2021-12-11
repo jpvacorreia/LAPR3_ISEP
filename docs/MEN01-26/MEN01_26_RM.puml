@@ -1,0 +1,11 @@
+@startuml
+'skinparam linetype polyline
+
+class Order {
+    -String orderId «PK»
+    -String clientId «PK,FK»
+    -int state
+}
+
+
+@enduml

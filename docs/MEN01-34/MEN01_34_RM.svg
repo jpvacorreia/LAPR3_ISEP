@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="479px" preserveAspectRatio="none" style="width:349px;height:479px;" version="1.1" viewBox="0 0 349 479" width="349px" zoomAndPan="magnify"><defs><filter height="300%" id="f1fbujen84g95a" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[7f2a9fafcebe4f099f71398fd3e2ed00]
+class Pharmacy--><rect codeLine="4" fill="#FEFECE" filter="url(#f1fbujen84g95a)" height="131.0156" id="Pharmacy" style="stroke:#A80036;stroke-width:1.5;" width="131" x="17.5" y="334"/><ellipse cx="52.3" cy="350" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M54.3,346.5 Q54.5031,346 54.7375,345.75 Q54.9719,345.5 55.2375,345.5 Q55.7063,345.5 56.0031,345.7813 Q56.3,346.0625 56.3,346.7188 L56.3,348.2813 Q56.3,348.9375 56.0188,349.2188 Q55.7375,349.5 55.3,349.5 Q54.9094,349.5 54.6594,349.3281 Q54.4094,349.1563 54.3,348.7031 Q54.2531,348.3906 54.0813,348.2188 Q53.7688,347.8906 53.2063,347.7031 Q52.6438,347.5 52.0813,347.5 Q51.3781,347.5 50.7844,347.7813 Q50.2063,348.0625 49.7531,348.6875 Q49.3,349.3125 49.3,350.1719 L49.3,351.0938 Q49.3,352.125 50.1438,352.8125 Q50.9875,353.5 52.4875,353.5 Q53.3781,353.5 54.0031,353.2969 Q54.3625,353.1875 54.7688,352.8281 Q55.0344,352.625 55.175,352.5625 Q55.3156,352.5 55.4875,352.5 Q55.8156,352.5 56.05,352.7656 Q56.3,353.0156 56.3,353.375 Q56.3,353.7188 55.9563,354.125 Q55.4563,354.7188 54.6594,355.0469 Q53.6125,355.5 52.3313,355.5 Q50.8313,355.5 49.6281,354.9063 Q48.6594,354.4375 47.9719,353.4219 Q47.3,352.4063 47.3,351.2031 L47.3,350.1094 Q47.3,348.8594 47.8938,347.7656 Q48.5031,346.6719 49.55,346.0938 Q50.6125,345.5 51.8,345.5 Q52.5188,345.5 53.1438,345.75 Q53.7688,346 54.3,346.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="70.7" y="354.9102">Pharmacy</text><line style="stroke:#A80036;stroke-width:1.5;" x1="18.5" x2="147.5" y1="366" y2="366"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="25.5" y="374"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="37.5" y="381.4189">int idPharmacy «PK»</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="25.5" y="387.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="105" x="37.5" y="395.2549">String namePharmacy</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="25.5" y="401.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="37.5" y="409.0908">int NIFPharmacy</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="25.5" y="415.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="87" x="37.5" y="422.9268">int IDAdministrator</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="25.5" y="429.3438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="82" x="37.5" y="436.7627">double addressX</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="25.5" y="443.1797"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="83" x="37.5" y="450.5986">double addressY</text><line style="stroke:#A80036;stroke-width:1.5;" x1="18.5" x2="147.5" y1="457.0156" y2="457.0156"/><!--MD5=[057726cf5a7b0036039cd1ed4902be71]
+class OrderLine--><rect codeLine="13" fill="#FEFECE" filter="url(#f1fbujen84g95a)" height="89.5078" id="OrderLine" style="stroke:#A80036;stroke-width:1.5;" width="141" x="194.5" y="7"/><ellipse cx="233.8" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M235.8,19.5 Q236.0031,19 236.2375,18.75 Q236.4719,18.5 236.7375,18.5 Q237.2063,18.5 237.5031,18.7813 Q237.8,19.0625 237.8,19.7188 L237.8,21.2813 Q237.8,21.9375 237.5188,22.2188 Q237.2375,22.5 236.8,22.5 Q236.4094,22.5 236.1594,22.3281 Q235.9094,22.1563 235.8,21.7031 Q235.7531,21.3906 235.5813,21.2188 Q235.2688,20.8906 234.7063,20.7031 Q234.1438,20.5 233.5813,20.5 Q232.8781,20.5 232.2844,20.7813 Q231.7063,21.0625 231.2531,21.6875 Q230.8,22.3125 230.8,23.1719 L230.8,24.0938 Q230.8,25.125 231.6438,25.8125 Q232.4875,26.5 233.9875,26.5 Q234.8781,26.5 235.5031,26.2969 Q235.8625,26.1875 236.2688,25.8281 Q236.5344,25.625 236.675,25.5625 Q236.8156,25.5 236.9875,25.5 Q237.3156,25.5 237.55,25.7656 Q237.8,26.0156 237.8,26.375 Q237.8,26.7188 237.4563,27.125 Q236.9563,27.7188 236.1594,28.0469 Q235.1125,28.5 233.8313,28.5 Q232.3313,28.5 231.1281,27.9063 Q230.1594,27.4375 229.4719,26.4219 Q228.8,25.4063 228.8,24.2031 L228.8,23.1094 Q228.8,21.8594 229.3938,20.7656 Q230.0031,19.6719 231.05,19.0938 Q232.1125,18.5 233.3,18.5 Q234.0188,18.5 234.6438,18.75 Q235.2688,19 235.8,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="253.2" y="27.9102">OrderLine</text><line style="stroke:#A80036;stroke-width:1.5;" x1="195.5" x2="334.5" y1="39" y2="39"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="202.5" y="47"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="214.5" y="54.4189">int orderID «PK»</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="202.5" y="60.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="115" x="214.5" y="68.2549">int idProduct «PK» «FK»</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="202.5" y="74.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="52" x="214.5" y="82.0908">int quantity</text><line style="stroke:#A80036;stroke-width:1.5;" x1="195.5" x2="334.5" y1="88.5078" y2="88.5078"/><!--MD5=[a4cb0f987c11031dc931233a0e7767af]
+class Stock--><rect codeLine="19" fill="#FEFECE" filter="url(#f1fbujen84g95a)" height="61.8359" id="Stock" style="stroke:#A80036;stroke-width:1.5;" width="149" x="8.5" y="184.5"/><ellipse cx="63.75" cy="200.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M65.75,197 Q65.9531,196.5 66.1875,196.25 Q66.4219,196 66.6875,196 Q67.1563,196 67.4531,196.2813 Q67.75,196.5625 67.75,197.2188 L67.75,198.7813 Q67.75,199.4375 67.4688,199.7188 Q67.1875,200 66.75,200 Q66.3594,200 66.1094,199.8281 Q65.8594,199.6563 65.75,199.2031 Q65.7031,198.8906 65.5313,198.7188 Q65.2188,198.3906 64.6563,198.2031 Q64.0938,198 63.5313,198 Q62.8281,198 62.2344,198.2813 Q61.6563,198.5625 61.2031,199.1875 Q60.75,199.8125 60.75,200.6719 L60.75,201.5938 Q60.75,202.625 61.5938,203.3125 Q62.4375,204 63.9375,204 Q64.8281,204 65.4531,203.7969 Q65.8125,203.6875 66.2188,203.3281 Q66.4844,203.125 66.625,203.0625 Q66.7656,203 66.9375,203 Q67.2656,203 67.5,203.2656 Q67.75,203.5156 67.75,203.875 Q67.75,204.2188 67.4063,204.625 Q66.9063,205.2188 66.1094,205.5469 Q65.0625,206 63.7813,206 Q62.2813,206 61.0781,205.4063 Q60.1094,204.9375 59.4219,203.9219 Q58.75,202.9063 58.75,201.7031 L58.75,200.6094 Q58.75,199.3594 59.3438,198.2656 Q59.9531,197.1719 61,196.5938 Q62.0625,196 63.25,196 Q63.9688,196 64.5938,196.25 Q65.2188,196.5 65.75,197 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="30" x="84.25" y="205.4102">Stock</text><line style="stroke:#A80036;stroke-width:1.5;" x1="9.5" x2="156.5" y1="216.5" y2="216.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="16.5" y="224.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="123" x="28.5" y="231.9189">int idPharmacy «PK»«FK»</text><line style="stroke:#A80036;stroke-width:1.5;" x1="9.5" x2="156.5" y1="238.3359" y2="238.3359"/><!--MD5=[1dca38c87dea1be2f898f25fe3545cb3]
+class StockLine--><rect codeLine="23" fill="#FEFECE" filter="url(#f1fbujen84g95a)" height="89.5078" id="StockLine" style="stroke:#A80036;stroke-width:1.5;" width="152" x="7" y="7"/><ellipse cx="51.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M53.75,19.5 Q53.9531,19 54.1875,18.75 Q54.4219,18.5 54.6875,18.5 Q55.1563,18.5 55.4531,18.7813 Q55.75,19.0625 55.75,19.7188 L55.75,21.2813 Q55.75,21.9375 55.4688,22.2188 Q55.1875,22.5 54.75,22.5 Q54.3594,22.5 54.1094,22.3281 Q53.8594,22.1563 53.75,21.7031 Q53.7031,21.3906 53.5313,21.2188 Q53.2188,20.8906 52.6563,20.7031 Q52.0938,20.5 51.5313,20.5 Q50.8281,20.5 50.2344,20.7813 Q49.6563,21.0625 49.2031,21.6875 Q48.75,22.3125 48.75,23.1719 L48.75,24.0938 Q48.75,25.125 49.5938,25.8125 Q50.4375,26.5 51.9375,26.5 Q52.8281,26.5 53.4531,26.2969 Q53.8125,26.1875 54.2188,25.8281 Q54.4844,25.625 54.625,25.5625 Q54.7656,25.5 54.9375,25.5 Q55.2656,25.5 55.5,25.7656 Q55.75,26.0156 55.75,26.375 Q55.75,26.7188 55.4063,27.125 Q54.9063,27.7188 54.1094,28.0469 Q53.0625,28.5 51.7813,28.5 Q50.2813,28.5 49.0781,27.9063 Q48.1094,27.4375 47.4219,26.4219 Q46.75,25.4063 46.75,24.2031 L46.75,23.1094 Q46.75,21.8594 47.3438,20.7656 Q47.9531,19.6719 49,19.0938 Q50.0625,18.5 51.25,18.5 Q51.9688,18.5 52.5938,18.75 Q53.2188,19 53.75,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="54" x="72.25" y="27.9102">StockLine</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="158" y1="39" y2="39"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="47"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="126" x="27" y="54.4189">int idPharmacy «PK» «FK»</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="60.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="115" x="27" y="68.2549">int idProduct «PK» «FK»</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="74.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="52" x="27" y="82.0908">int quantity</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="158" y1="88.5078" y2="88.5078"/><!--MD5=[72136138052d025cffdce3c22fbd185f]
+class Product--><rect codeLine="29" fill="#FEFECE" filter="url(#f1fbujen84g95a)" height="117.1797" id="Product" style="stroke:#A80036;stroke-width:1.5;" width="113" x="200.5" y="157"/><ellipse cx="233.05" cy="173" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M235.05,169.5 Q235.2531,169 235.4875,168.75 Q235.7219,168.5 235.9875,168.5 Q236.4563,168.5 236.7531,168.7813 Q237.05,169.0625 237.05,169.7188 L237.05,171.2813 Q237.05,171.9375 236.7688,172.2188 Q236.4875,172.5 236.05,172.5 Q235.6594,172.5 235.4094,172.3281 Q235.1594,172.1563 235.05,171.7031 Q235.0031,171.3906 234.8313,171.2188 Q234.5188,170.8906 233.9563,170.7031 Q233.3938,170.5 232.8313,170.5 Q232.1281,170.5 231.5344,170.7813 Q230.9563,171.0625 230.5031,171.6875 Q230.05,172.3125 230.05,173.1719 L230.05,174.0938 Q230.05,175.125 230.8938,175.8125 Q231.7375,176.5 233.2375,176.5 Q234.1281,176.5 234.7531,176.2969 Q235.1125,176.1875 235.5188,175.8281 Q235.7844,175.625 235.925,175.5625 Q236.0656,175.5 236.2375,175.5 Q236.5656,175.5 236.8,175.7656 Q237.05,176.0156 237.05,176.375 Q237.05,176.7188 236.7063,177.125 Q236.2063,177.7188 235.4094,178.0469 Q234.3625,178.5 233.0813,178.5 Q231.5813,178.5 230.3781,177.9063 Q229.4094,177.4375 228.7219,176.4219 Q228.05,175.4063 228.05,174.2031 L228.05,173.1094 Q228.05,171.8594 228.6438,170.7656 Q229.2531,169.6719 230.3,169.0938 Q231.3625,168.5 232.55,168.5 Q233.2688,168.5 233.8938,168.75 Q234.5188,169 235.05,169.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42" x="250.95" y="177.9102">Product</text><line style="stroke:#A80036;stroke-width:1.5;" x1="201.5" x2="312.5" y1="189" y2="189"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="208.5" y="197"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="87" x="220.5" y="204.4189">int idProduct «PK»</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="208.5" y="210.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="57" x="220.5" y="218.2549">String name</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="208.5" y="224.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="38" x="220.5" y="232.0908">int price</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="208.5" y="238.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="47" x="220.5" y="245.9268">int weight</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="208.5" y="252.3438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69" x="220.5" y="259.7627">idProductType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="201.5" x2="312.5" y1="266.1797" y2="266.1797"/><!--MD5=[e8b64870b639e81eac4e947f6ad39d1e]
+link OrderLine to Product--><path codeLine="37" d="M262.4,105.52 C261.72,119.21 260.98,134.15 260.27,148.45 " fill="none" id="OrderLine-Product" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="260.4103" x2="259.86" y1="145.7938" y2="156.78"/><ellipse cx="260.4103" cy="145.7938" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="264.0551" x2="256.0651" y1="152.9851" y2="152.5849"/><line style="stroke:#A80036;stroke-width:1.0;" x1="262.4098" x2="256.8175" y1="105.12" y2="96.8298"/><line style="stroke:#A80036;stroke-width:1.0;" x1="262.4098" x2="268.8025" y1="105.12" y2="97.4302"/><line style="stroke:#A80036;stroke-width:1.0;" x1="262.4098" x2="262.81" y1="105.12" y2="97.13"/><ellipse cx="262.1096" cy="111.1125" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7f0cd89f60239512df9e2d803d6e76d8]
+link StockLine to Product--><path codeLine="38" d="M136.44,102.6 C154.61,119.46 175.07,138.46 193.91,155.95 " fill="none" id="StockLine-Product" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="192.1821" x2="200.24" y1="154.322" y2="161.81"/><ellipse cx="192.1821" cy="154.322" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="200.0327" x2="194.5869" y1="156.1569" y2="162.0173"/><line style="stroke:#A80036;stroke-width:1.0;" x1="136.424" x2="126.4768" y1="102.561" y2="101.5355"/><line style="stroke:#A80036;stroke-width:1.0;" x1="136.424" x2="134.6232" y1="102.561" y2="92.7245"/><line style="stroke:#A80036;stroke-width:1.0;" x1="136.424" x2="130.55" y1="102.561" y2="97.13"/><ellipse cx="140.8296" cy="106.6342" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[391974155620cdd6df8a1985c4218cc8]
+link StockLine to Stock--><path codeLine="39" d="M83,105.42 C83,128.44 83,154.97 83,176.11 " fill="none" id="StockLine-Stock" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="83" x2="83" y1="173.22" y2="184.22"/><ellipse cx="83" cy="173.22" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="87" x2="79" y1="180.22" y2="180.22"/><line style="stroke:#A80036;stroke-width:1.0;" x1="83" x2="77" y1="105.13" y2="97.13"/><line style="stroke:#A80036;stroke-width:1.0;" x1="83" x2="89" y1="105.13" y2="97.13"/><line style="stroke:#A80036;stroke-width:1.0;" x1="83" x2="83" y1="105.13" y2="97.13"/><ellipse cx="83" cy="111.13" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b4c1fbbbc231e67569d9e5feae54674e]
+link Stock to Pharmacy--><path codeLine="40" d="M83,254.65 C83,275.19 83,301.24 83,325.5 " fill="none" id="Stock-Pharmacy" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="83" x2="83" y1="322.65" y2="333.65"/><ellipse cx="83" cy="322.65" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="87" x2="79" y1="329.65" y2="329.65"/><line style="stroke:#A80036;stroke-width:1.0;" x1="83" x2="83" y1="257.55" y2="246.55"/><ellipse cx="83" cy="257.55" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="79" x2="87" y1="250.55" y2="250.55"/><!--MD5=[10ba345cea76997b826dd956a9822394]
+@startuml
+'skinparam linetype polyline
+
+
+class Pharmacy {
+   -int idPharmacy «PK»
+   -String namePharmacy
+   -int NIFPharmacy
+   -int IDAdministrator
+   -double addressX
+   -double addressY
+}
+
+class OrderLine{
+    -int orderID «PK»
+    -int idProduct «PK» «FK»
+    -int quantity
+}
+
+class Stock{
+    -int idPharmacy «PK»«FK»
+}
+
+class StockLine{
+    -int idPharmacy «PK» «FK»
+    -int idProduct «PK» «FK»
+    -int quantity
+}
+
+class Product{
+    -int idProduct «PK»
+    -String name
+    -int price
+    -int weight
+    -idProductType
+}
+
+OrderLine }o- -o| Product
+StockLine }o- -o| Product
+StockLine }o- -o| Stock
+Stock |o- -o| Pharmacy
+
+@enduml
+
+@startuml
+
+
+class Pharmacy {
+   -int idPharmacy «PK»
+   -String namePharmacy
+   -int NIFPharmacy
+   -int IDAdministrator
+   -double addressX
+   -double addressY
+}
+
+class OrderLine{
+    -int orderID «PK»
+    -int idProduct «PK» «FK»
+    -int quantity
+}
+
+class Stock{
+    -int idPharmacy «PK»«FK»
+}
+
+class StockLine{
+    -int idPharmacy «PK» «FK»
+    -int idProduct «PK» «FK»
+    -int quantity
+}
+
+class Product{
+    -int idProduct «PK»
+    -String name
+    -int price
+    -int weight
+    -idProductType
+}
+
+OrderLine }o- -o| Product
+StockLine }o- -o| Product
+StockLine }o- -o| Stock
+Stock |o- -o| Pharmacy
+
+@enduml
+
+PlantUML version 1.2020.26(Mon Dec 21 17:45:07 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,39 @@
+@startuml
+'skinparam linetype polyline
+
+
+class Pharmacy {
+  -varchar pharmacyName
+  -varchar companyName
+  -numberNIF
+}
+
+class DeliveryRunRegistry {
+    -numberID_delivery_run_registry
+    -numberID_courier
+    -numberID_order
+}
+
+class Client_Order {
+    -number ID_order
+    -number ID_client
+    -date order_date
+    -number ID_state
+}
+
+class Courier{
+    -number ID_courier
+    -varchar name_courier
+    -number NISS
+    -number NIF_courier
+    -double weight
+    -number ID_scooter
+    -number ID_pharmacy
+    -varchar user_email
+}
+
+Courier }o--o| Pharmacy
+DeliveryRunRegistry }o--o| Courier
+DeliveryRunRegistry }o--o| Client_Order
+
+@enduml

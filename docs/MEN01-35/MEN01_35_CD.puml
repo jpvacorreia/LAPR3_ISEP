@@ -1,0 +1,44 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+left to right direction
+
+class Pharmacy {
+    -String pharmacyName
+    -String companyName
+    -int NIF
+}
+
+class Order {
+  -String orderID
+  -String clientID
+  -List cart
+}
+
+class Product{
+    -String productType
+    -String productName
+    -double price
+    -double weight
+}
+
+class Stock{
+    -int pharmacyID
+    -List stockLines
+}
+
+class StockLines{
+    -int pharmacyID
+    -int productID
+    -int quantity
+}
+
+Order "0..*" -- "1..*" Pharmacy : is placed >
+Pharmacy "1" -- "1" Stock : has >
+Stock "1" -- "0..*" StockLines : has >
+StockLines "0..*" -- "1" Product : has >
+
+
+@enduml
+
+

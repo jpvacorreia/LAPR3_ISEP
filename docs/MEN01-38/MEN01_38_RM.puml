@@ -1,0 +1,24 @@
+@startuml
+'skinparam linetype polyline
+
+
+class Client {
+    -String clientid «PK»
+    -String name
+    -String email
+    -int NIF
+    -int credits
+    -int creditCardNumber «FK»
+    -double gpsCoordinateX «FK»
+    -double gpsCoordinateY «FK»
+}
+
+class Order{
+    -int orderID «PK»
+    -int clientid «FK»
+    -Map<Product, Integer> cart
+}
+
+Client |o--o| Order
+
+@enduml

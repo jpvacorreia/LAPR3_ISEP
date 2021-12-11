@@ -1,0 +1,57 @@
+@startuml
+autonumber
+'hide footbox
+actor "System Administrator" as SADM
+
+participant ":RegisterScooterUI" as UI
+participant ":RegisterScooterController" as CTRL
+participant "rScoot: RegisterScooter" as RSCOOT
+participant "scoot: Scooter" as SCOOT
+
+
+
+activate SADM
+
+SADM -> UI : initiates the Scooter register
+activate UI
+UI --> SADM : requests Scooter data \n(maxBatteryCapacity,stateOfCharge,powerOutput,\nweight,maxPayload,pharmacyId)
+deactivate UI
+
+SADM -> UI : inserts requested data
+activate UI
+UI -> CTRL : newScooter(maxBatteryCapacity,stateOfCharge,\npowerOutput,weight,maxPayload,pharmacyId)
+activate CTRL
+CTRL -> RSCOOT : rscoot=newRegisterScooter()
+activate RSCOOT
+deactivate RSCOOT
+CTRL -> RSCOOT : scoot = newScooter(maxBatteryCapacity,stateOfCharge,\npowerOutput,weight,maxPayload,pharmacyId)
+activate RSCOOT
+RSCOOT -> SCOOT** : scoot = newScooter(maxBatteryCapacity,stateOfCharge,\npowerOutput,weight,maxPayload,pharmacyId)
+activate SCOOT
+SCOOT --> SCOOT : create()
+deactivate SCOOT
+deactivate RSCOOT
+deactivate CTRL
+UI --> SADM : shows data and asks for confirmation
+deactivate UI
+
+SADM -> UI : confirms
+activate UI
+UI -> CTRL : registerScooter()
+activate CTRL
+CTRL -> RSCOOT : registerScooter(scoot)
+activate RSCOOT
+RSCOOT -> RSCOOT : validateScooter(scoot)
+RSCOOT -> SCOOT : addScooter(scoot)
+activate SCOOT
+SCOOT --> SCOOT : save()
+deactivate SCOOT
+
+UI --> SADM : informs the successful operation
+deactivate RSCOOT
+deactivate CTRL
+deactivate UI
+deactivate SADM
+
+@enduml
+

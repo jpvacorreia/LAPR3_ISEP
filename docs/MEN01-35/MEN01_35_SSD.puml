@@ -1,0 +1,14 @@
+@startuml
+autonumber
+actor "System" as SYS
+
+activate SYS
+
+note over SYS
+Client places an order
+end note
+
+SYS -> SYS : Updates stock
+
+deactivate SYS
+@enduml

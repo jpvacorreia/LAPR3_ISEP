@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="507px" preserveAspectRatio="none" style="width:367px;height:507px;" version="1.1" viewBox="0 0 367 507" width="367px" zoomAndPan="magnify"><defs><filter height="300%" id="f8m8vszxuv4v1" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect codeLine="4" fill="#FEFECE" filter="url(#f8m8vszxuv4v1)" height="158.6875" id="Client" style="stroke:#A80036;stroke-width:1.5;" width="167" x="96.5" y="7"/><ellipse cx="159.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M161.75,19.5 Q161.9531,19 162.1875,18.75 Q162.4219,18.5 162.6875,18.5 Q163.1563,18.5 163.4531,18.7813 Q163.75,19.0625 163.75,19.7188 L163.75,21.2813 Q163.75,21.9375 163.4688,22.2188 Q163.1875,22.5 162.75,22.5 Q162.3594,22.5 162.1094,22.3281 Q161.8594,22.1563 161.75,21.7031 Q161.7031,21.3906 161.5313,21.2188 Q161.2188,20.8906 160.6563,20.7031 Q160.0938,20.5 159.5313,20.5 Q158.8281,20.5 158.2344,20.7813 Q157.6563,21.0625 157.2031,21.6875 Q156.75,22.3125 156.75,23.1719 L156.75,24.0938 Q156.75,25.125 157.5938,25.8125 Q158.4375,26.5 159.9375,26.5 Q160.8281,26.5 161.4531,26.2969 Q161.8125,26.1875 162.2188,25.8281 Q162.4844,25.625 162.625,25.5625 Q162.7656,25.5 162.9375,25.5 Q163.2656,25.5 163.5,25.7656 Q163.75,26.0156 163.75,26.375 Q163.75,26.7188 163.4063,27.125 Q162.9063,27.7188 162.1094,28.0469 Q161.0625,28.5 159.7813,28.5 Q158.2813,28.5 157.0781,27.9063 Q156.1094,27.4375 155.4219,26.4219 Q154.75,25.4063 154.75,24.2031 L154.75,23.1094 Q154.75,21.8594 155.3438,20.7656 Q155.9531,19.6719 157,19.0938 Q158.0625,18.5 159.25,18.5 Q159.9688,18.5 160.5938,18.75 Q161.2188,19 161.75,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="32" x="180.25" y="27.9102">Client</text><line style="stroke:#A80036;stroke-width:1.5;" x1="97.5" x2="262.5" y1="39" y2="39"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="104.5" y="47"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="92" x="116.5" y="54.4189">String clientid «PK»</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="104.5" y="60.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="57" x="116.5" y="68.2549">String name</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="104.5" y="74.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="55" x="116.5" y="82.0908">String email</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="104.5" y="88.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="29" x="116.5" y="95.9268">int NIF</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="104.5" y="102.3438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="47" x="116.5" y="109.7627">int credits</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="104.5" y="116.1797"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="129" x="116.5" y="123.5986">int creditCardNumber «FK»</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="104.5" y="130.0156"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="140" x="116.5" y="137.4346">double gpsCoordinateX «FK»</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="104.5" y="143.8516"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="141" x="116.5" y="151.2705">double gpsCoordinateY «FK»</text><line style="stroke:#A80036;stroke-width:1.5;" x1="97.5" x2="262.5" y1="157.6875" y2="157.6875"/><!--MD5=[91d4151b6d4c9a3d01b6d84b2458eece]
+class CreditCard--><rect codeLine="15" fill="#FEFECE" filter="url(#f8m8vszxuv4v1)" height="89.5078" id="CreditCard" style="stroke:#A80036;stroke-width:1.5;" width="155" x="198.5" y="226"/><ellipse cx="241.85" cy="242" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M243.85,238.5 Q244.0531,238 244.2875,237.75 Q244.5219,237.5 244.7875,237.5 Q245.2563,237.5 245.5531,237.7813 Q245.85,238.0625 245.85,238.7188 L245.85,240.2813 Q245.85,240.9375 245.5688,241.2188 Q245.2875,241.5 244.85,241.5 Q244.4594,241.5 244.2094,241.3281 Q243.9594,241.1563 243.85,240.7031 Q243.8031,240.3906 243.6313,240.2188 Q243.3188,239.8906 242.7563,239.7031 Q242.1938,239.5 241.6313,239.5 Q240.9281,239.5 240.3344,239.7813 Q239.7563,240.0625 239.3031,240.6875 Q238.85,241.3125 238.85,242.1719 L238.85,243.0938 Q238.85,244.125 239.6938,244.8125 Q240.5375,245.5 242.0375,245.5 Q242.9281,245.5 243.5531,245.2969 Q243.9125,245.1875 244.3188,244.8281 Q244.5844,244.625 244.725,244.5625 Q244.8656,244.5 245.0375,244.5 Q245.3656,244.5 245.6,244.7656 Q245.85,245.0156 245.85,245.375 Q245.85,245.7188 245.5063,246.125 Q245.0063,246.7188 244.2094,247.0469 Q243.1625,247.5 241.8813,247.5 Q240.3813,247.5 239.1781,246.9063 Q238.2094,246.4375 237.5219,245.4219 Q236.85,244.4063 236.85,243.2031 L236.85,242.1094 Q236.85,240.8594 237.4438,239.7656 Q238.0531,238.6719 239.1,238.0938 Q240.1625,237.5 241.35,237.5 Q242.0688,237.5 242.6938,237.75 Q243.3188,238 243.85,238.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="60" x="262.15" y="246.9102">CreditCard</text><line style="stroke:#A80036;stroke-width:1.5;" x1="199.5" x2="352.5" y1="258" y2="258"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="206.5" y="266"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="129" x="218.5" y="273.4189">int creditCardNumber «PK»</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="206.5" y="279.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="57" x="218.5" y="287.2549">date validity</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="206.5" y="293.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="92" x="218.5" y="301.0908">int verificationCode</text><line style="stroke:#A80036;stroke-width:1.5;" x1="199.5" x2="352.5" y1="307.5078" y2="307.5078"/><!--MD5=[cf4d6237fcae255cd2e1656cf84a30e2]
+class Order--><rect codeLine="21" fill="#FEFECE" filter="url(#f8m8vszxuv4v1)" height="89.5078" id="Order" style="stroke:#A80036;stroke-width:1.5;" width="156" x="7" y="226"/><ellipse cx="65.25" cy="242" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M67.25,238.5 Q67.4531,238 67.6875,237.75 Q67.9219,237.5 68.1875,237.5 Q68.6563,237.5 68.9531,237.7813 Q69.25,238.0625 69.25,238.7188 L69.25,240.2813 Q69.25,240.9375 68.9688,241.2188 Q68.6875,241.5 68.25,241.5 Q67.8594,241.5 67.6094,241.3281 Q67.3594,241.1563 67.25,240.7031 Q67.2031,240.3906 67.0313,240.2188 Q66.7188,239.8906 66.1563,239.7031 Q65.5938,239.5 65.0313,239.5 Q64.3281,239.5 63.7344,239.7813 Q63.1563,240.0625 62.7031,240.6875 Q62.25,241.3125 62.25,242.1719 L62.25,243.0938 Q62.25,244.125 63.0938,244.8125 Q63.9375,245.5 65.4375,245.5 Q66.3281,245.5 66.9531,245.2969 Q67.3125,245.1875 67.7188,244.8281 Q67.9844,244.625 68.125,244.5625 Q68.2656,244.5 68.4375,244.5 Q68.7656,244.5 69,244.7656 Q69.25,245.0156 69.25,245.375 Q69.25,245.7188 68.9063,246.125 Q68.4063,246.7188 67.6094,247.0469 Q66.5625,247.5 65.2813,247.5 Q63.7813,247.5 62.5781,246.9063 Q61.6094,246.4375 60.9219,245.4219 Q60.25,244.4063 60.25,243.2031 L60.25,242.1094 Q60.25,240.8594 60.8438,239.7656 Q61.4531,238.6719 62.5,238.0938 Q63.5625,237.5 64.75,237.5 Q65.4688,237.5 66.0938,237.75 Q66.7188,238 67.25,238.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="31" x="85.75" y="246.9102">Order</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="162" y1="258" y2="258"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="266"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="27" y="273.4189">int orderID «PK»</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="279.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="27" y="287.2549">int clientid «FK»</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="293.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="130" x="27" y="301.0908">Map&lt;Product, Integer&gt; cart</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="162" y1="307.5078" y2="307.5078"/><!--MD5=[72136138052d025cffdce3c22fbd185f]
+class Product--><rect codeLine="27" fill="#FEFECE" filter="url(#f8m8vszxuv4v1)" height="117.1797" id="Product" style="stroke:#A80036;stroke-width:1.5;" width="113" x="28.5" y="376"/><ellipse cx="61.05" cy="392" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M63.05,388.5 Q63.2531,388 63.4875,387.75 Q63.7219,387.5 63.9875,387.5 Q64.4563,387.5 64.7531,387.7813 Q65.05,388.0625 65.05,388.7188 L65.05,390.2813 Q65.05,390.9375 64.7688,391.2188 Q64.4875,391.5 64.05,391.5 Q63.6594,391.5 63.4094,391.3281 Q63.1594,391.1563 63.05,390.7031 Q63.0031,390.3906 62.8313,390.2188 Q62.5188,389.8906 61.9563,389.7031 Q61.3938,389.5 60.8313,389.5 Q60.1281,389.5 59.5344,389.7813 Q58.9563,390.0625 58.5031,390.6875 Q58.05,391.3125 58.05,392.1719 L58.05,393.0938 Q58.05,394.125 58.8938,394.8125 Q59.7375,395.5 61.2375,395.5 Q62.1281,395.5 62.7531,395.2969 Q63.1125,395.1875 63.5188,394.8281 Q63.7844,394.625 63.925,394.5625 Q64.0656,394.5 64.2375,394.5 Q64.5656,394.5 64.8,394.7656 Q65.05,395.0156 65.05,395.375 Q65.05,395.7188 64.7063,396.125 Q64.2063,396.7188 63.4094,397.0469 Q62.3625,397.5 61.0813,397.5 Q59.5813,397.5 58.3781,396.9063 Q57.4094,396.4375 56.7219,395.4219 Q56.05,394.4063 56.05,393.2031 L56.05,392.1094 Q56.05,390.8594 56.6438,389.7656 Q57.2531,388.6719 58.3,388.0938 Q59.3625,387.5 60.55,387.5 Q61.2688,387.5 61.8938,387.75 Q62.5188,388 63.05,388.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42" x="78.95" y="396.9102">Product</text><line style="stroke:#A80036;stroke-width:1.5;" x1="29.5" x2="140.5" y1="408" y2="408"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="36.5" y="416"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="87" x="48.5" y="423.4189">int idProduct «PK»</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="36.5" y="429.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="57" x="48.5" y="437.2549">String name</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="36.5" y="443.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="48.5" y="451.0908">double price</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="36.5" y="457.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="68" x="48.5" y="464.9268">double weight</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="36.5" y="471.3438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="40" x="48.5" y="478.7627">int stock</text><line style="stroke:#A80036;stroke-width:1.5;" x1="29.5" x2="140.5" y1="485.1797" y2="485.1797"/><!--MD5=[0748050afd2139cbb3c9faec3f892ae9]
+link Client to CreditCard--><path codeLine="35" d="M225.21,173.44 C233.35,188.92 241.6,204.61 249.02,218.71 " fill="none" id="Client-CreditCard" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="247.7049" x2="252.82" y1="216.1916" y2="225.93"/><ellipse cx="247.7049" cy="216.1916" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="254.5012" x2="247.4187" y1="220.5287" y2="224.2488"/><line style="stroke:#A80036;stroke-width:1.0;" x1="226.5251" x2="221.41" y1="175.9584" y2="166.22"/><ellipse cx="226.5251" cy="175.9584" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="219.7288" x2="226.8113" y1="171.6213" y2="167.9012"/><!--MD5=[879bec428a80d843af24dc47845bf14c]
+link Client to Order--><path codeLine="36" d="M135.26,173.44 C127.21,188.92 119.04,204.61 111.7,218.71 " fill="none" id="Client-Order" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="113.0235" x2="107.94" y1="216.1751" y2="225.93"/><ellipse cx="113.0235" cy="216.1751" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="113.3358" x2="106.2413" y1="224.2313" y2="220.5342"/><line style="stroke:#A80036;stroke-width:1.0;" x1="133.9365" x2="139.02" y1="175.9749" y2="166.22"/><ellipse cx="133.9365" cy="175.9749" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="133.6242" x2="140.7187" y1="167.9187" y2="171.6158"/><!--MD5=[9e541693026e1af25d43e03808f1e411]
+link Order to CreditCard--><path codeLine="37" d="M171.49,271 C177.59,271 183.69,271 189.79,271 " fill="none" id="Order-CreditCard" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="187.11" x2="198.11" y1="271" y2="271"/><ellipse cx="187.11" cy="271" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="194.11" x2="194.11" y1="267" y2="275"/><line style="stroke:#A80036;stroke-width:1.0;" x1="174.34" x2="163.34" y1="271" y2="271"/><ellipse cx="174.34" cy="271" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="167.34" x2="167.34" y1="275" y2="267"/><!--MD5=[5df16df72a49edaa4f00919f1e597f76]
+link Order to Product--><path codeLine="38" d="M85,324.52 C85,338.21 85,353.15 85,367.45 " fill="none" id="Order-Product" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="85" x2="91" y1="367.78" y2="375.78"/><line style="stroke:#A80036;stroke-width:1.0;" x1="85" x2="79" y1="367.78" y2="375.78"/><line style="stroke:#A80036;stroke-width:1.0;" x1="85" x2="85" y1="367.78" y2="375.78"/><line style="stroke:#A80036;stroke-width:1.0;" x1="89" x2="81" y1="365.78" y2="365.78"/><line style="stroke:#A80036;stroke-width:1.0;" x1="85" x2="85" y1="327.13" y2="316.13"/><ellipse cx="85" cy="327.13" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="81" x2="89" y1="320.13" y2="320.13"/><!--MD5=[e0fbd6bd32abef6045f9c0456beb5b3a]
+@startuml
+'skinparam linetype polyline
+
+
+class Client {
+    -String clientid «PK»
+    -String name
+    -String email
+    -int NIF
+    -int credits
+    -int creditCardNumber «FK»
+    -double gpsCoordinateX «FK»
+    -double gpsCoordinateY «FK»
+}
+
+class CreditCard {
+    -int creditCardNumber «PK»
+    -date validity
+    -int verificationCode
+}
+
+class Order{
+    -int orderID «PK»
+    -int clientid «FK»
+    -Map<Product, Integer> cart
+}
+
+class Product{
+    -int idProduct «PK»
+    -String name
+    -double price
+    -double weight
+    -int stock
+}
+
+Client |o- -o| CreditCard
+Client |o- -o| Order
+Order |o-o| CreditCard
+Order |o- -|{ Product
+
+
+@enduml
+
+@startuml
+
+
+class Client {
+    -String clientid «PK»
+    -String name
+    -String email
+    -int NIF
+    -int credits
+    -int creditCardNumber «FK»
+    -double gpsCoordinateX «FK»
+    -double gpsCoordinateY «FK»
+}
+
+class CreditCard {
+    -int creditCardNumber «PK»
+    -date validity
+    -int verificationCode
+}
+
+class Order{
+    -int orderID «PK»
+    -int clientid «FK»
+    -Map<Product, Integer> cart
+}
+
+class Product{
+    -int idProduct «PK»
+    -String name
+    -double price
+    -double weight
+    -int stock
+}
+
+Client |o- -o| CreditCard
+Client |o- -o| Order
+Order |o-o| CreditCard
+Order |o- -|{ Product
+
+
+@enduml
+
+PlantUML version 1.2020.23(Sun Dec 13 19:14:58 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

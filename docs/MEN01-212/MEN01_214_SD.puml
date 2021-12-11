@@ -1,0 +1,60 @@
+@startuml
+autonumber
+'hide footbox
+actor "Non-Registered User" as NRU
+
+participant ":RegisterUnregisteredUserUI" as UI
+participant ":RegisterUnregisteredClientController" as CTRL
+participant ":Platform" as PLAT
+participant "rclnt: RegisterClient" as RCLNT
+participant "clnt: Client" as CLNT
+participant "addr: Address" as ADDR
+participant "pc: PostalCode" as PC
+
+
+activate NRU
+
+NRU -> UI : initiates the Client registry
+activate UI
+UI --> NRU : requests Client data (name, email, address, postalCode, coordinateX, coordinateY, nif, creditCardNumber, creditCardValidity, ccv)
+deactivate UI
+
+NRU -> UI : inserts requested data
+activate UI
+UI -> CTRL : newClient(name, email, address, postalCode, coordinateX, coordinateY, nif, creditCardNumber, creditCardValidity, ccv)
+activate CTRL
+CTRL -> PLAT : rclnt=getRegisterClient()
+activate PLAT
+deactivate PLAT
+CTRL -> RCLNT : newClient(name, email, address, postalCode, coordinateX, coordinateY, nif, creditCardNumber, creditCardValidity, ccv)
+activate RCLNT
+RCLNT --> CLNT** : create(name, email, address, postalCode, coordinateX, coordinateY, nif, creditCardNumber, creditCardValidity, ccv)
+activate CLNT
+CLNT --> ADDR** : create(address, postalCode, coordinateX, coordinateY)
+activate ADDR
+ADDR --> PC** : create(postalCode)
+deactivate ADDR
+deactivate CLNT
+deactivate RCLNT
+deactivate CTRL
+UI --> NRU : shows data and asks for confirmation
+deactivate UI
+
+NRU -> UI : confirms
+activate UI
+UI -> CTRL : registerClient()
+activate CTRL
+CTRL -> RCLNT : registerClient(clnt)
+activate RCLNT
+RCLNT -> RCLNT : validatesClient(clnt)
+ref over RCLNT, CLNT : SD_RegisterClientAsUser
+RCLNT -> RCLNT : addClient(clnt)
+UI --> NRU : informs the successful operation
+deactivate RCLNT
+deactivate CTRL
+deactivate UI
+
+deactivate NRU
+
+@enduml
+

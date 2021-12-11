@@ -1,0 +1,19 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+left to right direction
+
+
+
+class Order {
+    -int orderID
+    -int clientID
+    -int state
+    -Date orderDate
+    -List cart
+}
+
+
+@enduml
+
+

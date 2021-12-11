@@ -1,0 +1,52 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+left to right direction
+
+class Platform {
+}
+
+class DeliveryRouteCalculationUI{
+}
+
+class DeliveryRouteCalculationController {
+ +getDeliveryRoute()
+}
+
+
+class DeliveryRouteCalculation {
+  +getAddressToDeliver()
+  +createDeliveryRoute()
+}
+
+class DeliveryRoute {
+  -Graph Proximity
+  -Graph DeliveryRoute
+  +generateDeliveryRoute()
+  +calculateShorthestPathVisitingAdresses()
+
+}
+
+class Order{
+    -int clientID
+    -getCoordinate()
+}
+
+class Client{
+    -double coordinateX
+    -double coordinateY
+    +getCoordinate()
+}
+
+DeliveryRouteCalculationUI ..> DeliveryRouteCalculationController
+DeliveryRouteCalculationController ..> Platform
+DeliveryRouteCalculationController ..> DeliveryRouteCalculation
+DeliveryRouteCalculation ..> DeliveryRoute
+DeliveryRoute "1" -- "1..*" Order : Has >
+Order "1" -- "1" Client : refers to >
+
+
+
+@enduml
+
+

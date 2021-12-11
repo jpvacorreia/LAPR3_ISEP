@@ -1,0 +1,20 @@
+@startuml
+'skinparam linetype polyline
+
+
+
+class Order {
+    -String id
+    -list of products
+}
+
+class Client {
+    -String name
+    -String email
+    -int NIF
+    -int credits
+}
+
+Order |o--o| Client
+
+@enduml

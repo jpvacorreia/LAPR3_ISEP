@@ -1,0 +1,15 @@
+@startuml
+autonumber
+
+actor "System" as SYS
+participant "Client :\nClient" as CLT
+
+activate SYS
+
+SYS -> SYS : order payment goes through
+activate CLT
+SYS -> CLT : updates client's credits
+deactivate CLT
+deactivate SYS
+@enduml
+

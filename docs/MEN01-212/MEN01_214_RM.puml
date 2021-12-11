@@ -1,0 +1,53 @@
+@startuml
+'skinparam linetype polyline
+
+
+class Client {
+    -String clientid «PK»
+    -String name
+    -String email
+    -int NIF
+    -int credits
+    -int creditCardNumber «FK»
+    -double gpsCoordinateX «FK»
+    -double gpsCoordinateY «FK»
+}
+
+class Address {
+    -String street
+    -double gpsCoordinateX «PK»
+    -double gpsCoordinateY «PK»
+    -int postalId «FK»
+    -double elevation
+}
+
+
+class PostalCode {
+    -int postalId «PK»
+    -int city
+    -int local
+}
+
+class CreditCard {
+    -int creditCardNumber «PK»
+    -date validity
+    -int verificationCode
+}
+
+class User {
+  -String email
+  -String password
+  -String user_type
+}
+
+Client |o--o| User
+
+Client }|-o| Address
+Client |o--o| CreditCard
+
+Address }|--o| PostalCode
+
+
+
+
+@enduml

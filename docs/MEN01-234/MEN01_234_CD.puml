@@ -1,0 +1,68 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+left to right direction
+
+class Platform {
+}
+
+class UpdatePharmacyUI {
+}
+
+class UpdatePharmacyController {
+ +newPharmacy(name, nif,  postalCode, idAdmin, coordinateX, coordinateY)
+ +registerPharmacy()
+ +updatePharmacy()
+}
+
+
+class UpdatePharmacy {
+  +Pharmacy newPharmacy(name, nif,  postalCode, idAdmin, coordinateX, coordinateY)
+  +registerPharmacy(pharmacy)
+  +validatePharmacy(pharmacy)
+  +removePharmacy(pharmacy)
+  -addPharmacy(Pharmacy)
+  -updatePharmacy(pharmacy)
+  -removePharmacy(pharmacy)
+}
+
+class Pharmacy {
+  -String name
+  -int idAdmin
+  -int NIF
+  -Address address
+
+  +newPharmacy(name, nif,  postalCode, idAdmin, coordinateX, coordinateY)
+
+}
+
+class Address {
+  -String street
+  -String locality
+  -double coordinateX
+  -double coordinateY
+  -PostalCode postalCode
+
+  +Address(address, postalCode)
+}
+
+class PostalCode {
+  -int city
+  -int local
+  +postalCode(postalCode)
+}
+
+
+UpdatePharmacyUI ..> UpdatePharmacyController
+UpdatePharmacyController ..> Platform
+UpdatePharmacyController ...> UpdatePharmacy
+UpdatePharmacyController ...> Pharmacy
+
+Platform "1"-->"1" UpdatePharmacy
+UpdatePharmacy "1" -- "*" Pharmacy : Updates >
+Pharmacy "1" -- "1" Address: has  >
+Address "1..*" -- "1" PostalCode: has  >
+
+@enduml
+
+

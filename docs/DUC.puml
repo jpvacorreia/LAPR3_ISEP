@@ -1,0 +1,79 @@
+@startuml
+
+usecase UC212 as "MEN01_212 - Register unregistered User"
+usecase UC23 as "MEN01_23 - Register Courier"
+usecase UC15 as "MEN01_15 - Client Log In"
+usecase UC55 as "MEN01_55 - Pharmacy Products View"
+usecase UC51 as "MEN01_51 - Delivery route generation"
+usecase UC57 as "MEN01_57 - Picking order to deliver"
+usecase UC13 as "MEN01_13 - Choose products to order"
+usecase UC26 as "MEN01_26 - Update Order state"
+usecase UC54 as "MEN01_54 - Add, remove or update Scooter"
+usecase UC19 as "MEN01_19 - Pay for an order"
+usecase UC53 as "MEN01-53 - Receive Notification with\n charging time and locking status"
+usecase UC18 as "MEN01_18 - Update order's state to delivered"
+usecase UC27 as "MEN01_27 - Check all pending orders"
+usecase UC20 as "MEN01_20 - Update order´s state to pending"
+usecase UC234 as "MEN01_234 - Update pharmacies' list"
+usecase UC233 as "MEN01_233 - Add, remove or update Drone"
+usecase UC241 as "MEN01_241 - Recieve Notification with\ncharging time whenever it changes"
+usecase UC30 as "MEN01_30 - Notify couriers when theirs scooters are done charging"
+usecase UC50 as "MEN01_50 - Informs the courier about the energy spent in a trip"
+usecase UC242 as "MEN01_242 - Simulates running costs of a delivery run"
+usecase UC14 as "MEN01_14 - Send an automatically generated password to client"
+usecase UC36 as "MEN01_36 - Have a payment transaction"
+usecase UC39 as "MEN01_39 - Send emails to Clients"
+usecase UC33 as "MEN01_33 - Turn a order as ready to deliver"
+usecase UC35 as "MEN01_35 - Update stock"
+usecase UC244 as "MEN01_244 - Back-order items"
+usecase UC16 as "MEN01_16 - Add or update payment method"
+usecase UC17 as "MEN01_17 - Update Address"
+usecase UC24 as "MEN01_24 - Remove product from order"
+
+actor "Non-registered User" as NRU
+actor "Platform Administrator" as ADM
+actor "Client" as CLNT
+actor "Courier" as COUR
+actor "Company" as COMP
+actor "System" as SYS
+
+left to right direction
+NRU -->(UC212)
+
+COUR --> (UC23)
+COUR --> (UC51)
+COUR --> (UC53)
+COUR --> (UC57)
+COUR --> (UC241)
+COUR --> (UC50)
+
+CLNT --> (UC13)
+CLNT --> (UC15)
+CLNT --> (UC19)
+CLNT --> (UC55)
+CLNT --> (UC16)
+CLNT --> (UC17)
+CLNT --> (UC24)
+
+ADM --> (UC54)
+ADM --> (UC234)
+ADM --> (UC233)
+ADM --> (UC242)
+ADM --> (UC14)
+ADM --> (UC244)
+
+SYS --> (UC18)
+SYS --> (UC26)
+SYS --> (UC20)
+
+COMP --> (UC27)
+COMP --> (UC30)
+COMP --> (UC36)
+COMP --> (UC39)
+COMP --> (UC33)
+COMP --> (UC35)
+
+
+
+
+@enduml

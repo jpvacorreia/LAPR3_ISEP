@@ -1,0 +1,24 @@
+@startuml
+autonumber
+actor "Client" as CLN
+
+activate CLN
+CLN -> ":Platform" : Wants to view products
+activate ":Platform"
+":Platform" --> CLN : requests for keyword/filter (optional)
+deactivate ":Platform"
+
+CLN -> ":Platform" : inserts requested data
+activate ":Platform"
+
+":Platform" --> CLN : shows data and requests confirmation
+deactivate ":Platform"
+
+CLN -> ":Platform" : confirms
+activate ":Platform"
+
+":Platform" --> CLN : successful operation
+deactivate ":Platform"
+
+deactivate CLN
+@enduml

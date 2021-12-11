@@ -1,0 +1,45 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+left to right direction
+
+class Platform {
+}
+
+class ClientProductViewUI {
+}
+
+class ClientProductViewController {
+ +getProducts()
+}
+
+
+class ClientProductView {
+  +getProducts()
+}
+
+class Pharmacy {
+  -String pharmacyName
+  -String companyName
+  -int NIF
+  +getProducts()
+}
+
+class Product{
+    -String productType
+    -String productName
+    -double price
+    -double weight
+}
+
+ClientProductViewUI  ..> ClientProductViewController
+ClientProductViewController ..> Platform
+ClientProductViewController ..> ClientProductView
+ClientProductView ..> Pharmacy
+Pharmacy "1" -- "*" Product : Has >
+
+
+
+@enduml
+
+

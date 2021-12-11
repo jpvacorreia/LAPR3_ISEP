@@ -1,0 +1,16 @@
+@startuml
+autonumber
+
+actor "System" as SYS
+participant "Client :\nClient" as CLT
+
+activate SYS
+
+SYS -> SYS : order payment goes through
+activate CLT
+SYS -> CLT : email = getEmail()
+deactivate CLT
+SYS -> SYS : sendEmail(email)
+deactivate SYS
+@enduml
+

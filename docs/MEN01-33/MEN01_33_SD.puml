@@ -1,0 +1,16 @@
+@startuml
+autonumber
+
+actor "System" as SYS
+participant "Order :\nOrder" as ORD
+
+activate SYS
+
+SYS -> SYS : Order payment goes through
+activate ORD
+SYS -> ORD :  updateStatus()
+deactivate ORD
+
+deactivate SYS
+@enduml
+

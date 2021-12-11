@@ -1,0 +1,40 @@
+@startuml
+autonumber
+
+actor "Courier" as COUR
+participant ":DeliveryRouteCalculationUI" as UI
+participant ":DeliveryRouteCalculationController" as CTRL
+participant ":DeliveryRouteCalculation" as DRC
+participant "DeliveryRoute:\nDeliveryRoute" as DeliveryRoute
+participant "Order :\nOrder" as ORD
+participant "Client :\nClient" as CLT
+
+activate COUR
+COUR -> UI : Wants to find the best delivery route
+activate UI
+UI -> CTRL : getDeliveryRoute()
+activate CTRL
+CTRL -> DRC : getAddressToDeliver()
+activate DRC
+DRC -> ORD : getCoordinate()
+activate ORD
+ORD -> CLT : getCoordinate()
+activate CLT
+deactivate CLT
+deactivate ORD
+CTRL -> DRC : createDeliveryRoute()
+DRC -> DeliveryRoute : generateDeliveryRoute()
+activate DeliveryRoute
+DeliveryRoute -> DeliveryRoute : calculateShorthestPathVisitingAdresses()
+deactivate DeliveryRoute
+deactivate DRC
+deactivate CTRL
+UI -> COUR : Shows the calculated route
+deactivate UI
+COUR -> UI : Confirms the given route
+activate UI
+UI --> COUR : Succesful operation
+deactivate UI
+deactivate COUR
+@enduml
+@enduml

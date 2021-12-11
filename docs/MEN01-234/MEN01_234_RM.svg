@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="450px" preserveAspectRatio="none" style="width:667px;height:450px;" version="1.1" viewBox="0 0 667 450" width="667.5px" zoomAndPan="magnify"><defs><filter height="300%" id="foijpfyvz7pp6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[7f2a9fafcebe4f099f71398fd3e2ed00]
+class Pharmacy--><rect codeLine="4" fill="#FEFECE" filter="url(#foijpfyvz7pp6)" height="163.7695" id="Pharmacy" style="stroke: #A80036; stroke-width: 1.875;" width="208.75" x="8.75" y="81.8888"/><ellipse cx="73.4375" cy="101.8888" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke: #A80036; stroke-width: 1.25;"/><path d="M75.9375,97.5138 Q76.1914,96.8888 76.4844,96.5763 Q76.7773,96.2638 77.1094,96.2638 Q77.6953,96.2638 78.0664,96.6153 Q78.4375,96.9669 78.4375,97.7872 L78.4375,99.7403 Q78.4375,100.5606 78.0859,100.9122 Q77.7344,101.2638 77.1875,101.2638 Q76.6992,101.2638 76.3867,101.0489 Q76.0742,100.8341 75.9375,100.2677 Q75.8789,99.877 75.6641,99.6622 Q75.2734,99.252 74.5703,99.0177 Q73.8672,98.7638 73.1641,98.7638 Q72.2852,98.7638 71.543,99.1153 Q70.8203,99.4669 70.2539,100.2481 Q69.6875,101.0294 69.6875,102.1036 L69.6875,103.2559 Q69.6875,104.545 70.7422,105.4044 Q71.7969,106.2638 73.6719,106.2638 Q74.7852,106.2638 75.5664,106.0098 Q76.0156,105.8731 76.5234,105.4239 Q76.8555,105.17 77.0313,105.0919 Q77.207,105.0138 77.4219,105.0138 Q77.832,105.0138 78.125,105.3458 Q78.4375,105.6583 78.4375,106.1075 Q78.4375,106.5372 78.0078,107.045 Q77.3828,107.7872 76.3867,108.1973 Q75.0781,108.7638 73.4766,108.7638 Q71.6016,108.7638 70.0977,108.0216 Q68.8867,107.4356 68.0273,106.1661 Q67.1875,104.8966 67.1875,103.3927 L67.1875,102.0255 Q67.1875,100.463 67.9297,99.0958 Q68.6914,97.7286 70,97.0059 Q71.3281,96.2638 72.8125,96.2638 Q73.7109,96.2638 74.4922,96.5763 Q75.2734,96.8888 75.9375,97.5138 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="68.75" x="99.0625" y="108.0264">Pharmacy</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="10" x2="216.25" y1="121.8888" y2="121.8888"/><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="131.8888"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="122.5" x="33.75" y="141.1624">int pharmacyid «PK»</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="149.1837"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="71.25" x="33.75" y="158.4574">String name</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="166.4786"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="36.25" x="33.75" y="175.7523">int NIF</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="183.7735"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="100" x="33.75" y="193.0472">int idAdmin «FK»</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="201.0684"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="175" x="33.75" y="210.3421">double gpsCoordinateX «FK»</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="218.3634"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="176.25" x="33.75" y="227.637">double gpsCoordinateY «FK»</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="10" x2="216.25" y1="235.6583" y2="235.6583"/><!--MD5=[0f39e4cb6f03951afbf6d14bd2505654]
+class Address--><rect codeLine="13" fill="#FEFECE" filter="url(#foijpfyvz7pp6)" height="146.4746" id="Address" style="stroke: #A80036; stroke-width: 1.875;" width="208.75" x="261.25" y="90.6388"/><ellipse cx="331.5625" cy="110.6388" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke: #A80036; stroke-width: 1.25;"/><path d="M334.0625,106.2638 Q334.3164,105.6388 334.6094,105.3263 Q334.9023,105.0138 335.2344,105.0138 Q335.8203,105.0138 336.1914,105.3653 Q336.5625,105.7169 336.5625,106.5372 L336.5625,108.4903 Q336.5625,109.3106 336.2109,109.6622 Q335.8594,110.0138 335.3125,110.0138 Q334.8242,110.0138 334.5117,109.7989 Q334.1992,109.5841 334.0625,109.0177 Q334.0039,108.627 333.7891,108.4122 Q333.3984,108.002 332.6953,107.7677 Q331.9922,107.5138 331.2891,107.5138 Q330.4102,107.5138 329.668,107.8653 Q328.9453,108.2169 328.3789,108.9981 Q327.8125,109.7794 327.8125,110.8536 L327.8125,112.0059 Q327.8125,113.295 328.8672,114.1544 Q329.9219,115.0138 331.7969,115.0138 Q332.9102,115.0138 333.6914,114.7598 Q334.1406,114.6231 334.6484,114.1739 Q334.9805,113.92 335.1563,113.8419 Q335.332,113.7638 335.5469,113.7638 Q335.957,113.7638 336.25,114.0958 Q336.5625,114.4083 336.5625,114.8575 Q336.5625,115.2872 336.1328,115.795 Q335.5078,116.5372 334.5117,116.9473 Q333.2031,117.5138 331.6016,117.5138 Q329.7266,117.5138 328.2227,116.7716 Q327.0117,116.1856 326.1523,114.9161 Q325.3125,113.6466 325.3125,112.1427 L325.3125,110.7755 Q325.3125,109.213 326.0547,107.8458 Q326.8164,106.4786 328.125,105.7559 Q329.4531,105.0138 330.9375,105.0138 Q331.8359,105.0138 332.6172,105.3263 Q333.3984,105.6388 334.0625,106.2638 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="57.5" x="357.1875" y="116.7764">Address</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="262.5" x2="468.75" y1="130.6388" y2="130.6388"/><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="271.25" y="140.6388"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="73.75" x="286.25" y="149.9124">String street</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="271.25" y="157.9337"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="175" x="286.25" y="167.2074">double gpsCoordinateX «PK»</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="271.25" y="175.2286"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="176.25" x="286.25" y="184.5023">double gpsCoordinateY «PK»</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="271.25" y="192.5235"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="98.75" x="286.25" y="201.7972">int postalId «FK»</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="271.25" y="209.8184"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="97.5" x="286.25" y="219.0921">double elevation</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="262.5" x2="468.75" y1="227.1134" y2="227.1134"/><!--MD5=[f061b633de56a323bd4d344a8bec65fe]
+class PostalCode--><rect codeLine="22" fill="#FEFECE" filter="url(#foijpfyvz7pp6)" height="111.8848" id="PostalCode" style="stroke: #A80036; stroke-width: 1.875;" width="131.25" x="300" y="320.6388"/><ellipse cx="323.25" cy="340.6388" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke: #A80036; stroke-width: 1.25;"/><path d="M325.75,336.2638 Q326.0039,335.6388 326.2969,335.3263 Q326.5898,335.0138 326.9219,335.0138 Q327.5078,335.0138 327.8789,335.3653 Q328.25,335.7169 328.25,336.5372 L328.25,338.4903 Q328.25,339.3106 327.8984,339.6622 Q327.5469,340.0138 327,340.0138 Q326.5117,340.0138 326.1992,339.7989 Q325.8867,339.5841 325.75,339.0177 Q325.6914,338.627 325.4766,338.4122 Q325.0859,338.002 324.3828,337.7677 Q323.6797,337.5138 322.9766,337.5138 Q322.0977,337.5138 321.3555,337.8653 Q320.6328,338.2169 320.0664,338.9981 Q319.5,339.7794 319.5,340.8536 L319.5,342.0059 Q319.5,343.295 320.5547,344.1544 Q321.6094,345.0138 323.4844,345.0138 Q324.5977,345.0138 325.3789,344.7598 Q325.8281,344.6231 326.3359,344.1739 Q326.668,343.92 326.8438,343.8419 Q327.0195,343.7638 327.2344,343.7638 Q327.6445,343.7638 327.9375,344.0958 Q328.25,344.4083 328.25,344.8575 Q328.25,345.2872 327.8203,345.795 Q327.1953,346.5372 326.1992,346.9473 Q324.8906,347.5138 323.2891,347.5138 Q321.4141,347.5138 319.9102,346.7716 Q318.6992,346.1856 317.8398,344.9161 Q317,343.6466 317,342.1427 L317,340.7755 Q317,339.213 317.7422,337.8458 Q318.5039,336.4786 319.8125,335.7559 Q321.1406,335.0138 322.625,335.0138 Q323.5234,335.0138 324.3047,335.3263 Q325.0859,335.6388 325.75,336.2638 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="81.25" x="341.75" y="346.7764">PostalCode</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="301.25" x2="430" y1="360.6388" y2="360.6388"/><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="310" y="370.6388"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="98.75" x="325" y="379.9124">int postalId «PK»</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="310" y="387.9337"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="38.75" x="325" y="397.2074">int city</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="310" y="405.2286"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="45" x="325" y="414.5023">int local</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="301.25" x2="430" y1="422.5235" y2="422.5235"/><!--MD5=[da547346deef918ea16944ba046651ef]
+class Administrator--><rect codeLine="28" fill="#FEFECE" filter="url(#foijpfyvz7pp6)" height="111.8848" id="Administrator" style="stroke: #A80036; stroke-width: 1.875;" width="136.25" x="513.75" y="107.5138"/><ellipse cx="534.75" cy="127.5138" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke: #A80036; stroke-width: 1.25;"/><path d="M537.25,123.1388 Q537.5039,122.5138 537.7969,122.2013 Q538.0898,121.8888 538.4219,121.8888 Q539.0078,121.8888 539.3789,122.2403 Q539.75,122.5919 539.75,123.4122 L539.75,125.3653 Q539.75,126.1856 539.3984,126.5372 Q539.0469,126.8888 538.5,126.8888 Q538.0117,126.8888 537.6992,126.6739 Q537.3867,126.4591 537.25,125.8927 Q537.1914,125.502 536.9766,125.2872 Q536.5859,124.877 535.8828,124.6427 Q535.1797,124.3888 534.4766,124.3888 Q533.5977,124.3888 532.8555,124.7403 Q532.1328,125.0919 531.5664,125.8731 Q531,126.6544 531,127.7286 L531,128.8809 Q531,130.17 532.0547,131.0294 Q533.1094,131.8888 534.9844,131.8888 Q536.0977,131.8888 536.8789,131.6348 Q537.3281,131.4981 537.8359,131.0489 Q538.168,130.795 538.3438,130.7169 Q538.5195,130.6388 538.7344,130.6388 Q539.1445,130.6388 539.4375,130.9708 Q539.75,131.2833 539.75,131.7325 Q539.75,132.1622 539.3203,132.67 Q538.6953,133.4122 537.6992,133.8223 Q536.3906,134.3888 534.7891,134.3888 Q532.9141,134.3888 531.4102,133.6466 Q530.1992,133.0606 529.3398,131.7911 Q528.5,130.5216 528.5,129.0177 L528.5,127.6505 Q528.5,126.088 529.2422,124.7208 Q530.0039,123.3536 531.3125,122.6309 Q532.6406,121.8888 534.125,121.8888 Q535.0234,121.8888 535.8047,122.2013 Q536.5859,122.5138 537.25,123.1388 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="91.25" x="552.75" y="133.6514">Administrator</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="515" x2="648.75" y1="147.5138" y2="147.5138"/><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="523.75" y="157.5138"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="71.25" x="538.75" y="166.7874">String name</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="523.75" y="174.8087"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="103.75" x="538.75" y="184.0824">String email «FK»</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="523.75" y="192.1036"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="100" x="538.75" y="201.3773">int idAdmin «PK»</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="515" x2="648.75" y1="209.3985" y2="209.3985"/><!--MD5=[b32c1246a4834e0b72faaa77d69013a3]
+link Pharmacy to Administrator--><path codeLine="34" d="M203.2538,75.775 C221.2075,62.9063 240.8575,51.5837 261.25,44.3888 C348.7425,13.5213 384.8713,7.5 470,44.3888 C496.925,56.0563 520.3388,77.7488 538.69,99.4738 " fill="none" id="Pharmacy-Administrator" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="536.5171" x2="545.2188" y1="96.815" y2="107.4613"/><ellipse cx="536.5171" cy="96.815" fill="none" rx="5" ry="5" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="545.9259" x2="538.1831" y1="100.4256" y2="106.7541"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="203.1672" x2="199.5875" y1="75.8395" y2="87.816"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="203.1672" x2="190.6675" y1="75.8395" y2="75.7565"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="203.1672" x2="195.1275" y1="75.8395" y2="81.7863"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="208.1505" x2="202.2037" y1="78.3727" y2="70.333"/><!--MD5=[89baec1bfb4a213750f7c61516e0a0f1]
+link Pharmacy to Address--><path codeLine="35" d="M227.835,163.7638 C235.44,163.7638 243.045,163.7638 250.65,163.7638 " fill="none" id="Pharmacy-Address" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="247.27" x2="261.02" y1="163.7638" y2="163.7638"/><ellipse cx="247.27" cy="163.7638" fill="none" rx="5" ry="5" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="256.02" x2="256.02" y1="158.7638" y2="168.7638"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="231.4262" x2="217.6762" y1="163.7638" y2="163.7638"/><ellipse cx="231.4262" cy="163.7638" fill="none" rx="5" ry="5" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="222.6762" x2="222.6762" y1="168.7638" y2="158.7638"/><!--MD5=[4da5c7c17dc5d5ecf3707ff92f3d6286]
+link Address to PostalCode--><path codeLine="37" d="M365.625,246.9563 C365.625,267.8938 365.625,290.13 365.625,310.1228 " fill="none" id="Address-PostalCode" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="365.625" x2="365.625" y1="306.6044" y2="320.3544"/><ellipse cx="365.625" cy="306.6044" fill="none" rx="5" ry="5" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="370.625" x2="360.625" y1="315.3544" y2="315.3544"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="365.625" x2="358.125" y1="246.91" y2="236.91"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="365.625" x2="373.125" y1="246.91" y2="236.91"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="365.625" x2="365.625" y1="246.91" y2="236.91"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="360.625" x2="370.625" y1="249.41" y2="249.41"/><!--MD5=[9eab83b26436cae5c068db1b44c79f36]
+@startuml
+'skinparam linetype polyline
+
+
+class Pharmacy {
+    -int pharmacyid «PK»
+    -String name
+    -int NIF
+    -int idAdmin «FK»
+    -double gpsCoordinateX «FK»
+    -double gpsCoordinateY «FK»
+}
+
+class Address {
+    -String street
+    -double gpsCoordinateX «PK»
+    -double gpsCoordinateY «PK»
+    -int postalId «FK»
+    -double elevation
+}
+
+
+class PostalCode {
+    -int postalId «PK»
+    -int city
+    -int local
+}
+
+class Administrator {
+    -String name
+    -String email «FK»
+    -int idAdmin «PK»
+}
+
+Pharmacy }|-o| Administrator
+Pharmacy |o-o| Address
+
+Address }|- -o| PostalCode
+
+
+
+
+@enduml
+
+@startuml
+
+
+class Pharmacy {
+    -int pharmacyid «PK»
+    -String name
+    -int NIF
+    -int idAdmin «FK»
+    -double gpsCoordinateX «FK»
+    -double gpsCoordinateY «FK»
+}
+
+class Address {
+    -String street
+    -double gpsCoordinateX «PK»
+    -double gpsCoordinateY «PK»
+    -int postalId «FK»
+    -double elevation
+}
+
+
+class PostalCode {
+    -int postalId «PK»
+    -int city
+    -int local
+}
+
+class Administrator {
+    -String name
+    -String email «FK»
+    -int idAdmin «PK»
+}
+
+Pharmacy }|-o| Administrator
+Pharmacy |o-o| Address
+
+Address }|- -o| PostalCode
+
+
+
+
+@enduml
+
+PlantUML version 1.2020.20(Sat Nov 21 10:02:45 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

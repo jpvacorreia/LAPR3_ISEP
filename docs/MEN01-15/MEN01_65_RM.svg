@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="411.25px" preserveAspectRatio="none" style="width:235px;height:411px;" version="1.1" viewBox="0 0 235 411" width="235px" zoomAndPan="magnify"><defs><filter height="300%" id="f1pisa2a7g6cfn" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect codeLine="4" fill="#FEFECE" filter="url(#f1pisa2a7g6cfn)" height="198.3594" id="Client" style="stroke: #A80036; stroke-width: 1.875;" width="208.75" x="8.75" y="8.75"/><ellipse cx="87.8125" cy="28.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke: #A80036; stroke-width: 1.25;"/><path d="M90.3125,24.375 Q90.5664,23.75 90.8594,23.4375 Q91.1523,23.125 91.4844,23.125 Q92.0703,23.125 92.4414,23.4766 Q92.8125,23.8281 92.8125,24.6484 L92.8125,26.6016 Q92.8125,27.4219 92.4609,27.7734 Q92.1094,28.125 91.5625,28.125 Q91.0742,28.125 90.7617,27.9102 Q90.4492,27.6953 90.3125,27.1289 Q90.2539,26.7383 90.0391,26.5234 Q89.6484,26.1133 88.9453,25.8789 Q88.2422,25.625 87.5391,25.625 Q86.6602,25.625 85.918,25.9766 Q85.1953,26.3281 84.6289,27.1094 Q84.0625,27.8906 84.0625,28.9648 L84.0625,30.1172 Q84.0625,31.4063 85.1172,32.2656 Q86.1719,33.125 88.0469,33.125 Q89.1602,33.125 89.9414,32.8711 Q90.3906,32.7344 90.8984,32.2852 Q91.2305,32.0313 91.4063,31.9531 Q91.582,31.875 91.7969,31.875 Q92.207,31.875 92.5,32.207 Q92.8125,32.5195 92.8125,32.9688 Q92.8125,33.3984 92.3828,33.9063 Q91.7578,34.6484 90.7617,35.0586 Q89.4531,35.625 87.8516,35.625 Q85.9766,35.625 84.4727,34.8828 Q83.2617,34.2969 82.4023,33.0273 Q81.5625,31.7578 81.5625,30.2539 L81.5625,28.8867 Q81.5625,27.3242 82.3047,25.957 Q83.0664,24.5898 84.375,23.8672 Q85.7031,23.125 87.1875,23.125 Q88.0859,23.125 88.8672,23.4375 Q89.6484,23.75 90.3125,24.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="40" x="113.4375" y="34.8877">Client</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="10" x2="216.25" y1="48.75" y2="48.75"/><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="58.75"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="115" x="33.75" y="68.0237">String clientid «PK»</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="76.0449"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="71.25" x="33.75" y="85.3186">String name</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="93.3398"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="68.75" x="33.75" y="102.6135">String email</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="110.6348"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="36.25" x="33.75" y="119.9084">int NIF</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="127.9297"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="58.75" x="33.75" y="137.2034">int credits</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="145.2246"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="161.25" x="33.75" y="154.4983">int creditCardNumber «FK»</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="162.5195"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="175" x="33.75" y="171.7932">double gpsCoordinateX «FK»</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="179.8145"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="176.25" x="33.75" y="189.0881">double gpsCoordinateY «FK»</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="10" x2="216.25" y1="197.1094" y2="197.1094"/><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect codeLine="15" fill="#FEFECE" filter="url(#f1pisa2a7g6cfn)" height="111.8848" id="User" style="stroke: #A80036; stroke-width: 1.875;" width="156.25" x="35" y="282.5"/><ellipse cx="90.9375" cy="302.5" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke: #A80036; stroke-width: 1.25;"/><path d="M93.4375,298.125 Q93.6914,297.5 93.9844,297.1875 Q94.2773,296.875 94.6094,296.875 Q95.1953,296.875 95.5664,297.2266 Q95.9375,297.5781 95.9375,298.3984 L95.9375,300.3516 Q95.9375,301.1719 95.5859,301.5234 Q95.2344,301.875 94.6875,301.875 Q94.1992,301.875 93.8867,301.6602 Q93.5742,301.4453 93.4375,300.8789 Q93.3789,300.4883 93.1641,300.2734 Q92.7734,299.8633 92.0703,299.6289 Q91.3672,299.375 90.6641,299.375 Q89.7852,299.375 89.043,299.7266 Q88.3203,300.0781 87.7539,300.8594 Q87.1875,301.6406 87.1875,302.7148 L87.1875,303.8672 Q87.1875,305.1563 88.2422,306.0156 Q89.2969,306.875 91.1719,306.875 Q92.2852,306.875 93.0664,306.6211 Q93.5156,306.4844 94.0234,306.0352 Q94.3555,305.7813 94.5313,305.7031 Q94.707,305.625 94.9219,305.625 Q95.332,305.625 95.625,305.957 Q95.9375,306.2695 95.9375,306.7188 Q95.9375,307.1484 95.5078,307.6563 Q94.8828,308.3984 93.8867,308.8086 Q92.5781,309.375 90.9766,309.375 Q89.1016,309.375 87.5977,308.6328 Q86.3867,308.0469 85.5273,306.7773 Q84.6875,305.5078 84.6875,304.0039 L84.6875,302.6367 Q84.6875,301.0742 85.4297,299.707 Q86.1914,298.3398 87.5,297.6172 Q88.8281,296.875 90.3125,296.875 Q91.2109,296.875 91.9922,297.1875 Q92.7734,297.5 93.4375,298.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="33.75" x="116.5625" y="308.6377">User</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="36.25" x2="190" y1="322.5" y2="322.5"/><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="45" y="332.5"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="123.75" x="60" y="341.7737">String email «PK,FK»</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="45" y="349.7949"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="101.25" x="60" y="359.0686">String password</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="45" y="367.0898"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="100" x="60" y="376.3635">String user_type</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="36.25" x2="190" y1="384.3848" y2="384.3848"/><!--MD5=[9a8dc34b38f85b9f3fcdb440f4bffc6a]
+link Client to User--><path codeLine="21" d="M113.125,218.0063 C113.125,236.5025 113.125,255.19 113.125,272.117 " fill="none" id="Client-User" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="113.125" x2="113.125" y1="268.6614" y2="282.4114"/><ellipse cx="113.125" cy="268.6614" fill="none" rx="5" ry="5" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="118.125" x2="108.125" y1="277.4114" y2="277.4114"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="113.125" x2="113.125" y1="221.5263" y2="207.7763"/><ellipse cx="113.125" cy="221.5263" fill="none" rx="5" ry="5" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="108.125" x2="118.125" y1="212.7763" y2="212.7763"/><!--MD5=[c337621743254d8994c80dcec73d0285]
+@startuml
+'skinparam linetype polyline
+
+
+class Client {
+    -String clientid «PK»
+    -String name
+    -String email
+    -int NIF
+    -int credits
+    -int creditCardNumber «FK»
+    -double gpsCoordinateX «FK»
+    -double gpsCoordinateY «FK»
+}
+
+class User {
+    -String email «PK,FK»
+    -String password
+    -String user_type
+}
+
+Client |o- -o| User
+
+@enduml
+
+@startuml
+
+
+class Client {
+    -String clientid «PK»
+    -String name
+    -String email
+    -int NIF
+    -int credits
+    -int creditCardNumber «FK»
+    -double gpsCoordinateX «FK»
+    -double gpsCoordinateY «FK»
+}
+
+class User {
+    -String email «PK,FK»
+    -String password
+    -String user_type
+}
+
+Client |o- -o| User
+
+@enduml
+
+PlantUML version 1.2020.20(Sat Nov 21 10:02:45 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,22 @@
+@startuml
+autonumber
+actor "System Administrator" as SADM
+
+activate SADM
+SADM -> ":Platform" : Initiates to add, remove or update a Scooter
+activate ":Platform"
+":Platform" --> SADM : requests Drone data \n(maxBatteryCapacity,stateOfCharge,powerOutput,weight,maxPayload,pharmacyId)
+deactivate ":Platform"
+
+SADM -> ":Platform" : inserts requested data
+activate ":Platform"
+":Platform" --> SADM : shows data and requests confirmation
+deactivate ":Platform"
+
+SADM -> ":Platform" : confirms
+activate ":Platform"
+":Platform" --> SADM : successful operation
+deactivate ":Platform"
+
+deactivate SADM
+@enduml

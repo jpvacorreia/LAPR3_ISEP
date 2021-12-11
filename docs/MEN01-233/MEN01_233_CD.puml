@@ -1,0 +1,37 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+left to right direction
+
+class RegisterDroneUI {
+}
+
+class RegisterDroneController {
+ +newDrone(maxBatteryCapacity,stateOfCharge,\npowerOutput,weight,maxPayload,pharmacyId)
+ +registerDrone()
+}
+
+class RegisterDrone {
+ +RegisterDrone()
+ +newDrone(maxBatteryCapacity,stateOfCharge,\npowerOutput,weight,maxPayload,pharmacyId)
+ +RegisterDrone(drone)
+}
+
+class Drone {
+ +newDrone(maxBatteryCapacity,stateOfCharge,\npowerOutput,weight,maxPayload,pharmacyId)
+ +create()
+ +addDrone(drone)
+ -save()
+ +remove()
+ +update()
+}
+
+
+RegisterDroneUI ..> RegisterDroneController
+RegisterDroneController ..> RegisterDrone
+RegisterDrone "1"--"0..*" Drone : registers
+
+
+@enduml
+
+

@@ -1,0 +1,22 @@
+@startuml
+autonumber
+actor "Non-Registered User" as NRU
+
+activate NRU
+NRU -> ":Platform" : register Client
+activate ":Platform"
+":Platform" --> NRU : requests for Client data (name, email, address, GPS Decimal Degrees, NIF and credit card info)
+deactivate ":Platform"
+
+NRU -> ":Platform" : inserts requested data
+activate ":Platform"
+":Platform" --> NRU : shows data and requests confirmation
+deactivate ":Platform"
+
+NRU -> ":Platform" : confirms
+activate ":Platform"
+":Platform" --> NRU : successful operation
+deactivate ":Platform"
+
+deactivate NRU
+@enduml

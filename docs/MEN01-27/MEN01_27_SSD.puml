@@ -1,0 +1,9 @@
+@startuml
+autonumber
+actor "System" as SYS
+
+SYS -> SYS : get pending orders
+activate SYS
+deactivate SYS
+
+@enduml

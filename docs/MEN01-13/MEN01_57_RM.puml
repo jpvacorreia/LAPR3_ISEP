@@ -1,0 +1,34 @@
+@startuml
+'skinparam linetype polyline
+
+
+class Pharmacy {
+  -String pharmacyName
+  -String companyName
+  -int NIF
+}
+
+class Order {
+    -String id
+    -list of products
+}
+
+class Client {
+    -String name
+    -String email
+    -int NIF
+    -int credits
+}
+
+class Product{
+    -String productType
+    -String productName
+    -double price
+    -double weight
+}
+
+Product }o--o| Pharmacy
+Order |o--o{ Product
+Order |o--o| Client
+
+@enduml

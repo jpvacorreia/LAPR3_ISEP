@@ -1,0 +1,25 @@
+@startuml
+autonumber
+'hide footbox
+actor "System" as SYS
+
+participant ":Order" as ORD
+participant ":ClientOrderDB" as CODB
+
+
+activate SYS
+SYS -> ORD : requests all pending orders
+
+activate ORD
+ORD -> CODB : ordersList=getAllPendingOrders()
+activate CODB
+CODB -> CODB : getAllPendingOrders()
+ORD --> SYS : returns list of pending orders
+deactivate CODB
+deactivate ORD
+
+deactivate SYS
+
+
+@enduml
+

@@ -1,0 +1,45 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+left to right direction
+
+class Client {
+  -String name
+  -String email
+  -int NIF
+  -CreditCard card
+  -Address address
+}
+
+class CreditCard{
+  -int creditCardNumber
+  -date creditCardValidity
+  -int ccv
+}
+
+
+class Product{
+    -String name
+    -double price
+    -double weight
+    -double stock
+}
+
+class Order {
+  -String orderID
+  -String clientID
+  -Map<Product, Integer> cart
+
+  +makePayment()
+}
+
+
+
+Client "1" --> "1" Order : has placed >
+Client "1" --> "1" CreditCard : has >
+Order "1" --> "1" CreditCard : uses >
+Order "1" --> "1..*" Product : has >
+
+@enduml
+
+

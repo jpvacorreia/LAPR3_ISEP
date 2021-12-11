@@ -1,0 +1,50 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+left to right direction
+
+class Platform {
+}
+
+class ClientLogInUI {
+}
+
+class ClientLogInController {
+ +logIn(email, password)
+}
+
+
+class LogIn {
+  +logIn(email, password)
+}
+
+class User {
+  -String email
+  -String password
+  -String user_type
+  +checkUser(email, password)
+  +getUserType()
+}
+
+class Client {
+  -String name
+  -String email
+  -int NIF
+  -int creditCardNumber
+  -int creditCardValidity
+  -int ccv
+  -Address address
+}
+
+
+ClientLogInUI ..> ClientLogInController
+ClientLogInController ..> Platform
+ClientLogInController ..> LogIn
+ClientLogInController ..> Client
+Client "1" -- "1" User : is a >
+LogIn "1" -- "*" User: checks if exists >
+
+
+@enduml
+
+

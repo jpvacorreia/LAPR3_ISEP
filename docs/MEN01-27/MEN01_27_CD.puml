@@ -1,0 +1,35 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+'left to right direction
+
+
+class Order {
+    -String orderId «PK»
+    -String clientId «PK,FK»
+    -int state
+    +Order(orderID, clientNIF, cart)
+    +makePayment()
+    +generateInvoice()
+    +calculatePrice(cart)
+    +addClientOrder(order)
+    +updateState(newState)
+    +updateStateToDelivered()
+    +getAllPendingOrders()
+}
+
+class ClientOrderDB {
+    +getLastClientOrderID(clientID)
+    +addClientOrder(ord)
+    -addClientOrder(clientID, date, status)
+    +updateOrderStatus(orderID, status)
+    +removeClientOrder(orderID)
+    +getAllReadyOrders()
+    +getAllPendingOrders()
+}
+
+Order ..> ClientOrderDB : get pending orders
+
+@enduml
+
+

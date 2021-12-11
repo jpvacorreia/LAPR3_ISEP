@@ -1,0 +1,150 @@
+@startuml
+
+class Platform {
+
+}
+
+class Stock {
+    -List<Products> products
+    -int pharmacyID
+}
+
+
+class PharmacyAdmin {
+    -String name
+    -String email
+}
+
+class Order {
+    -String id
+    -list of products
+}
+
+
+class Client {
+    -String name
+    -String email
+    -int NIF
+    -int credits
+}
+
+class Address {
+    -String street
+    -String locality
+    -double gpsCoordinateX
+    -double gpsCoordinateY
+}
+
+class PostalCode {
+    -int city
+    -int local
+}
+
+class CreditCard {
+    -int number
+    -date validity
+    -int verificationCode
+}
+
+class DeliveryRun{
+     -int idDeliverer
+     -List<Order> toDeliver
+     -Date date
+     -Pharmacy startingPoint
+}
+
+class DeliveryRoute{
+     -List<Address> adressesOfDelivery
+}
+
+class Pharmacy {
+    -String pharmacyName
+    -String companyName
+    -int NIF
+}
+
+class Scooter {
+    -int idNumber
+    -double maxBatteryCapacity
+    -double stateOfHealth
+    -double stateOfCharge
+    -double powerOutput
+    -double weight
+}
+
+class Product{
+    -String productType
+    -String productName
+    -double price
+    -double weight
+}
+
+
+class ParkingSlotScooters {
+    -String stateOfUse
+    -boolean hasChargingCapabilities
+}
+
+class Courier {
+    -String name
+    -int NISS
+    -int NIF
+    -double weight
+
+}
+
+class Drone {
+    -String designation
+    -double maximumPayload
+    -double maxBatteryCapacity
+    -double stateOfHealth
+    -double stateOfCharge
+    -double weight
+}
+
+class ParkingSlotDrones {
+    -String stateOfUse
+    -boolean hasChargingCapabilities
+}
+
+
+Client "1..*" -- "1" Address : has >
+Client "1" -- "1" CreditCard : has >
+Client "1" -- "1..*" Order : makes >
+
+Address "1..*" -- "1" PostalCode : has >
+
+Pharmacy "1" -- "1" PharmacyAdmin : has >
+Pharmacy "1" -- "0..*" Scooter : has >
+Pharmacy "1" -- "1..*" ParkingSlotScooters : has >
+Pharmacy "1" -- "1..*" ParkingSlotDrones : has >
+Pharmacy "1" -- "1..*" Address : has >
+Pharmacy "1" --- "0..*" Client : has >
+Pharmacy "1" --- "0..*" Courier : has >
+Pharmacy "1" --- "0..*" Order : manages >
+Pharmacy "1" -- "1" Stock : has >
+
+
+Courier "1" -- "1..*" Scooter : uses >
+Courier "1" -- "1..*" Address : has >
+
+ParkingSlotScooters "1..*" -- "1..*" Scooter : uses <
+
+ParkingSlotDrones "1..*" -- "1..*" Drone : uses <
+
+
+
+Platform "1" -- "1..*" Pharmacy : has >
+
+Stock "1" -- "0..*" Product : has >
+
+DeliveryRun "1" -- "1..*" Order : refers to >
+
+Courier "1" -- "1..*" DeliveryRun : delivers >
+Drone "1" -- "1..*" DeliveryRun : delivers >
+
+PharmacyAdmin "1" -- "0..*" DeliveryRun : simulates >
+
+DeliveryRun "1" -- "1" DeliveryRoute : follows >
+
+@enduml

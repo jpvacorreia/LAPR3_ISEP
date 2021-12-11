@@ -1,0 +1,22 @@
+@startuml
+autonumber
+actor "Admin" as ADM
+
+activate ADM
+ADM -> ":Platform" : register Pharmacy (1 option)
+activate ":Platform"
+":Platform" --> ADM : requests for Pharmacy data (name, postalCode, address, NIF)
+deactivate ":Platform"
+
+ADM -> ":Platform" : inserts requested data
+activate ":Platform"
+":Platform" --> ADM : shows data and requests confirmation
+deactivate ":Platform"
+
+ADM -> ":Platform" : confirms
+activate ":Platform"
+":Platform" --> ADM : successful operation
+deactivate ":Platform"
+
+deactivate ADM
+@enduml

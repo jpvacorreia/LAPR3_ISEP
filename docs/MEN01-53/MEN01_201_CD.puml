@@ -1,0 +1,49 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+left to right direction
+
+class Platform {
+}
+
+class ScooterChargingUI {
+}
+
+class ScooterChargingController {
+  +getChargingTimeAndLockingStatus(Scooter)
+}
+
+
+class ScooterCharging {
+  +getChargingTimeAndLockingStatus(Scooter)
+}
+
+class Scooter {
+    -int ID;
+    -double maxBatteryCapacity;
+    -double stateOfCharge;
+    -double powerOutput;
+    -double weight;
+    -double maxPayload;
+    -int pharmacyID;
+  +getChargingTimeAndLockingStatus(Scooter)
+}
+
+class ParkingSlot {
+    -int pharmacyID
+    -int parkingSlotID
+}
+
+
+ScooterChargingUI   ..> ScooterChargingController
+ScooterChargingController ..> Platform
+ScooterChargingController ..> ScooterCharging
+ScooterCharging ..> Scooter
+Scooter "1" -- "1" ParkingSlot: charges in >
+
+
+
+
+@enduml
+
+

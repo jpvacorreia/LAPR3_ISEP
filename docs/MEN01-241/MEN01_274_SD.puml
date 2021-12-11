@@ -1,0 +1,46 @@
+@startuml
+autonumber
+
+actor "Client" as COUR
+participant ":ScooterChargingUI" as UI
+participant ":ScooterChargingController" as CTRL
+participant ":ScooterCharging" as SCHARGING
+participant "Scooter:\nScooter" as SCOOTER
+participant ":ParkingSlot" as PKS
+participant "usage:ParkingSlotScootersUsage" as PSSU
+participant ":SendEmail" as SE
+
+
+activate COUR
+COUR -> UI : Places Scooter to charge
+activate UI
+UI -> CTRL : getChargingTimeAndLockingStatus(Scooter)
+activate CTRL
+CTRL -> SCHARGING : getChargingTimeAndLockingStatus(Scooter)
+activate SCHARGING
+SCHARGING -> SCOOTER : locked = getLockingStatus(Scooter)
+activate SCOOTER
+deactivate SCOOTER
+opt locked = true
+SCHARGING -> PKS : getParkingSlotUsages()
+activate PKS
+deactivate PKS
+loop while usage exists
+SCHARGING -> PSSU : getDateIn()
+activate PSSU
+deactivate PSSU
+SCHARGING -> PKS : getChargingTime()
+activate PKS
+deactivate PKS
+SCHARGING -> SE : sendEmail()
+activate SE
+deactivate SE
+end loop
+end
+deactivate SCHARGING
+deactivate CTRL
+UI --> COUR : Sends charging time and \nlocking status. \nSuccessful operation.
+deactivate UI
+deactivate COUR
+@enduml
+@enduml

@@ -1,0 +1,73 @@
+@startuml
+autonumber
+'hide footbox
+actor "System Administrator" as SADM
+
+participant ":SimulateRunUI" as UI
+participant ":SimulateRunController" as CTRL
+participant ":SimulateRun" as SR
+participant "ord : Order " as ord 
+participant "dR : DeliveryRun" as dR
+participant "dRR : DeliveryRoute" as dRR
+
+
+
+activate SADM
+
+SADM -> UI : wants to simulate a delivery run
+activate UI
+UI --> CTRL : getAllReadyOrders()
+activate CTRL
+CTRL --> ord : getAllReadyOrders()
+activate ord
+deactivate ord
+deactivate CTRL
+UI --> SADM : shows all available orders
+deactivate UI
+
+SADM -> UI : chooses orders
+activate UI
+UI -> CTRL : generateDeliveryList()
+activate CTRL
+CTRL -> SR  : generateDeliveryList(List<Order> toDeliver)
+activate SR
+deactivate SR
+deactivate CTRL
+UI --> SADM : shows delivery method
+deactivate UI
+
+SADM -> UI : chooses delivery method
+activate UI
+UI -> CTRL : generateDeliveryRun()
+activate CTRL
+CTRL -> SR : createSimulatedRun()
+activate SR
+SR  -> dR : new DeliveryRun()
+activate dR
+deactivate dR
+deactivate SR
+deactivate CTRL
+
+UI --> SADM : shows simulation criteria
+deactivate UI
+SADM --> UI : chooses simulation criteria
+activate UI
+UI --> CTRL : generateDeliveryRoute()
+activate CTRL
+CTRL --> SR : generateDeliveryRoute()
+activate SR
+SR --> DRR : new DeliveryRun()
+activate DRR
+deactivate DRR
+deactivate SR
+deactivate CTRL
+UI --> SADM : shows results
+deactivate UI
+deactivate SADM
+
+
+deactivate UI
+deactivate SADM
+
+@enduml
+

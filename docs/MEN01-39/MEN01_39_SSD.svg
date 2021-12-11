@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="278px" preserveAspectRatio="none" style="width:230px;height:278px;" version="1.1" viewBox="0 0 230 278" width="230px" zoomAndPan="magnify"><defs><filter height="300%" id="f1l3f7dvdvaoe7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1l3f7dvdvaoe7)" height="68.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="75" y="99.6094"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="80" x2="80" y1="89.6094" y2="193.3125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="46" x="54" y="86.5332">System</text><ellipse cx="80" cy="15" fill="#FEFECE" filter="url(#f1l3f7dvdvaoe7)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M80,23 L80,50 M67,31 L93,31 M80,50 L67,65 M80,50 L93,65 " fill="none" filter="url(#f1l3f7dvdvaoe7)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="46" x="54" y="206.8457">System</text><ellipse cx="80" cy="219.9219" fill="#FEFECE" filter="url(#f1l3f7dvdvaoe7)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M80,227.9219 L80,254.9219 M67,235.9219 L93,235.9219 M80,254.9219 L67,269.9219 M80,254.9219 L93,269.9219 " fill="none" filter="url(#f1l3f7dvdvaoe7)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FFFFFF" filter="url(#f1l3f7dvdvaoe7)" height="68.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="75" y="99.6094"/><path d="M5,104.6094 L5,130.6094 L152,130.6094 L152,114.6094 L142,104.6094 L5,104.6094 " fill="#FBFB77" filter="url(#f1l3f7dvdvaoe7)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M142,104.6094 L142,114.6094 L152,114.6094 L142,104.6094 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="126" x="11" y="123.1045">Client places an order</text><line style="stroke:#A80036;stroke-width:1.0;" x1="85" x2="127" y1="167.3125" y2="167.3125"/><line style="stroke:#A80036;stroke-width:1.0;" x1="127" x2="127" y1="167.3125" y2="180.3125"/><line style="stroke:#A80036;stroke-width:1.0;" x1="80" x2="127" y1="180.3125" y2="180.3125"/><polygon fill="#A80036" points="90,176.3125,80,180.3125,90,184.3125,86,180.3125" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="92" y="162.4561">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="120" x="103" y="162.4561">Sends e-mail to user</text><!--MD5=[a6fef6d83975fedee5a4019eb494e042]
+@startuml
+autonumber
+actor "System" as SYS
+
+activate SYS
+
+note over SYS
+Client places an order
+end note
+
+SYS -> SYS : Sends e-mail to user
+
+deactivate SYS
+@enduml
+
+PlantUML version 1.2020.26(Mon Dec 21 17:45:07 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

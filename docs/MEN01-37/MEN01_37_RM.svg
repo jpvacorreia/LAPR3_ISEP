@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="598.75px" preserveAspectRatio="none" style="width:375px;height:598px;" version="1.1" viewBox="0 0 375 598" width="375px" zoomAndPan="magnify"><defs><filter height="300%" id="f15nbvc0595l7o" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[7f2a9fafcebe4f099f71398fd3e2ed00]
+class Pharmacy--><rect codeLine="4" fill="#FEFECE" filter="url(#f15nbvc0595l7o)" height="111.8848" id="Pharmacy" style="stroke:#A80036;stroke-width:1.875;" width="177.5" x="180" y="470"/><ellipse cx="229.6875" cy="490" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M232.1875,485.625 Q232.4414,485 232.7344,484.6875 Q233.0273,484.375 233.3594,484.375 Q233.9453,484.375 234.3164,484.7266 Q234.6875,485.0781 234.6875,485.8984 L234.6875,487.8516 Q234.6875,488.6719 234.3359,489.0234 Q233.9844,489.375 233.4375,489.375 Q232.9492,489.375 232.6367,489.1602 Q232.3242,488.9453 232.1875,488.3789 Q232.1289,487.9883 231.9141,487.7734 Q231.5234,487.3633 230.8203,487.1289 Q230.1172,486.875 229.4141,486.875 Q228.5352,486.875 227.793,487.2266 Q227.0703,487.5781 226.5039,488.3594 Q225.9375,489.1406 225.9375,490.2148 L225.9375,491.3672 Q225.9375,492.6563 226.9922,493.5156 Q228.0469,494.375 229.9219,494.375 Q231.0352,494.375 231.8164,494.1211 Q232.2656,493.9844 232.7734,493.5352 Q233.1055,493.2813 233.2813,493.2031 Q233.457,493.125 233.6719,493.125 Q234.082,493.125 234.375,493.457 Q234.6875,493.7695 234.6875,494.2188 Q234.6875,494.6484 234.2578,495.1563 Q233.6328,495.8984 232.6367,496.3086 Q231.3281,496.875 229.7266,496.875 Q227.8516,496.875 226.3477,496.1328 Q225.1367,495.5469 224.2773,494.2773 Q223.4375,493.0078 223.4375,491.5039 L223.4375,490.1367 Q223.4375,488.5742 224.1797,487.207 Q224.9414,485.8398 226.25,485.1172 Q227.5781,484.375 229.0625,484.375 Q229.9609,484.375 230.7422,484.6875 Q231.5234,485 232.1875,485.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="68.75" x="254.0625" y="496.1377">Pharmacy</text><line style="stroke:#A80036;stroke-width:1.875;" x1="181.25" x2="356.25" y1="510" y2="510"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="190" y="520"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="145" x="205" y="529.2737">varchar pharmacyName</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="190" y="537.2949"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="140" x="205" y="546.5686">varchar companyName</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="190" y="554.5898"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="63.75" x="205" y="563.8635">numberNIF</text><line style="stroke:#A80036;stroke-width:1.875;" x1="181.25" x2="356.25" y1="571.8848" y2="571.8848"/><!--MD5=[fdb46a6b46f18eb9e178236900e91149]
+class DeliveryRunRegistry--><rect codeLine="10" fill="#FEFECE" filter="url(#f15nbvc0595l7o)" height="111.8848" id="DeliveryRunRegistry" style="stroke:#A80036;stroke-width:1.875;" width="225" x="58.75" y="8.75"/><ellipse cx="98.3125" cy="28.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M100.8125,24.375 Q101.0664,23.75 101.3594,23.4375 Q101.6523,23.125 101.9844,23.125 Q102.5703,23.125 102.9414,23.4766 Q103.3125,23.8281 103.3125,24.6484 L103.3125,26.6016 Q103.3125,27.4219 102.9609,27.7734 Q102.6094,28.125 102.0625,28.125 Q101.5742,28.125 101.2617,27.9102 Q100.9492,27.6953 100.8125,27.1289 Q100.7539,26.7383 100.5391,26.5234 Q100.1484,26.1133 99.4453,25.8789 Q98.7422,25.625 98.0391,25.625 Q97.1602,25.625 96.418,25.9766 Q95.6953,26.3281 95.1289,27.1094 Q94.5625,27.8906 94.5625,28.9648 L94.5625,30.1172 Q94.5625,31.4063 95.6172,32.2656 Q96.6719,33.125 98.5469,33.125 Q99.6602,33.125 100.4414,32.8711 Q100.8906,32.7344 101.3984,32.2852 Q101.7305,32.0313 101.9063,31.9531 Q102.082,31.875 102.2969,31.875 Q102.707,31.875 103,32.207 Q103.3125,32.5195 103.3125,32.9688 Q103.3125,33.3984 102.8828,33.9063 Q102.2578,34.6484 101.2617,35.0586 Q99.9531,35.625 98.3516,35.625 Q96.4766,35.625 94.9727,34.8828 Q93.7617,34.2969 92.9023,33.0273 Q92.0625,31.7578 92.0625,30.2539 L92.0625,28.8867 Q92.0625,27.3242 92.8047,25.957 Q93.5664,24.5898 94.875,23.8672 Q96.2031,23.125 97.6875,23.125 Q98.5859,23.125 99.3672,23.4375 Q100.1484,23.75 100.8125,24.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="138.75" x="120.4375" y="34.8877">DeliveryRunRegistry</text><line style="stroke:#A80036;stroke-width:1.875;" x1="60" x2="282.5" y1="48.75" y2="48.75"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="68.75" y="58.75"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="192.5" x="83.75" y="68.0237">numberID_delivery_run_registry</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="68.75" y="76.0449"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="106.25" x="83.75" y="85.3186">numberID_courier</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="68.75" y="93.3398"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="96.25" x="83.75" y="102.6135">numberID_order</text><line style="stroke:#A80036;stroke-width:1.875;" x1="60" x2="282.5" y1="110.6348" y2="110.6348"/><!--MD5=[f3ee07d284faff8ec732e645ff5f3ddf]
+class Client_Order--><rect codeLine="16" fill="#FEFECE" filter="url(#f15nbvc0595l7o)" height="129.1797" id="Client_Order" style="stroke:#A80036;stroke-width:1.875;" width="132.5" x="8.75" y="231.25"/><ellipse cx="29.75" cy="251.25" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M32.25,246.875 Q32.5039,246.25 32.7969,245.9375 Q33.0898,245.625 33.4219,245.625 Q34.0078,245.625 34.3789,245.9766 Q34.75,246.3281 34.75,247.1484 L34.75,249.1016 Q34.75,249.9219 34.3984,250.2734 Q34.0469,250.625 33.5,250.625 Q33.0117,250.625 32.6992,250.4102 Q32.3867,250.1953 32.25,249.6289 Q32.1914,249.2383 31.9766,249.0234 Q31.5859,248.6133 30.8828,248.3789 Q30.1797,248.125 29.4766,248.125 Q28.5977,248.125 27.8555,248.4766 Q27.1328,248.8281 26.5664,249.6094 Q26,250.3906 26,251.4648 L26,252.6172 Q26,253.9063 27.0547,254.7656 Q28.1094,255.625 29.9844,255.625 Q31.0977,255.625 31.8789,255.3711 Q32.3281,255.2344 32.8359,254.7852 Q33.168,254.5313 33.3438,254.4531 Q33.5195,254.375 33.7344,254.375 Q34.1445,254.375 34.4375,254.707 Q34.75,255.0195 34.75,255.4688 Q34.75,255.8984 34.3203,256.4063 Q33.6953,257.1484 32.6992,257.5586 Q31.3906,258.125 29.7891,258.125 Q27.9141,258.125 26.4102,257.3828 Q25.1992,256.7969 24.3398,255.5273 Q23.5,254.2578 23.5,252.7539 L23.5,251.3867 Q23.5,249.8242 24.2422,248.457 Q25.0039,247.0898 26.3125,246.3672 Q27.6406,245.625 29.125,245.625 Q30.0234,245.625 30.8047,245.9375 Q31.5859,246.25 32.25,246.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="87.5" x="47.75" y="257.3877">Client_Order</text><line style="stroke:#A80036;stroke-width:1.875;" x1="10" x2="140" y1="271.25" y2="271.25"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="281.25"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="100" x="33.75" y="290.5237">number ID_order</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="298.5449"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="98.75" x="33.75" y="307.8186">number ID_client</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="315.8398"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="96.25" x="33.75" y="325.1135">date order_date</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="333.1348"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="97.5" x="33.75" y="342.4084">number ID_state</text><line style="stroke:#A80036;stroke-width:1.875;" x1="10" x2="140" y1="350.4297" y2="350.4297"/><!--MD5=[c6a2171c11447acbe08a3dfeee0e1710]
+class Courier--><rect codeLine="23" fill="#FEFECE" filter="url(#f15nbvc0595l7o)" height="198.3594" id="Courier" style="stroke:#A80036;stroke-width:1.875;" width="166.25" x="185.625" y="196.25"/><ellipse cx="238.125" cy="216.25" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M240.625,211.875 Q240.8789,211.25 241.1719,210.9375 Q241.4648,210.625 241.7969,210.625 Q242.3828,210.625 242.7539,210.9766 Q243.125,211.3281 243.125,212.1484 L243.125,214.1016 Q243.125,214.9219 242.7734,215.2734 Q242.4219,215.625 241.875,215.625 Q241.3867,215.625 241.0742,215.4102 Q240.7617,215.1953 240.625,214.6289 Q240.5664,214.2383 240.3516,214.0234 Q239.9609,213.6133 239.2578,213.3789 Q238.5547,213.125 237.8516,213.125 Q236.9727,213.125 236.2305,213.4766 Q235.5078,213.8281 234.9414,214.6094 Q234.375,215.3906 234.375,216.4648 L234.375,217.6172 Q234.375,218.9063 235.4297,219.7656 Q236.4844,220.625 238.3594,220.625 Q239.4727,220.625 240.2539,220.3711 Q240.7031,220.2344 241.2109,219.7852 Q241.543,219.5313 241.7188,219.4531 Q241.8945,219.375 242.1094,219.375 Q242.5195,219.375 242.8125,219.707 Q243.125,220.0195 243.125,220.4688 Q243.125,220.8984 242.6953,221.4063 Q242.0703,222.1484 241.0742,222.5586 Q239.7656,223.125 238.1641,223.125 Q236.2891,223.125 234.7852,222.3828 Q233.5742,221.7969 232.7148,220.5273 Q231.875,219.2578 231.875,217.7539 L231.875,216.3867 Q231.875,214.8242 232.6172,213.457 Q233.3789,212.0898 234.6875,211.3672 Q236.0156,210.625 237.5,210.625 Q238.3984,210.625 239.1797,210.9375 Q239.9609,211.25 240.625,211.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="51.25" x="263.125" y="222.3877">Courier</text><line style="stroke:#A80036;stroke-width:1.875;" x1="186.875" x2="350.625" y1="236.25" y2="236.25"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="195.625" y="246.25"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="110" x="210.625" y="255.5237">number ID_courier</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="195.625" y="263.5449"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="133.75" x="210.625" y="272.8186">varchar name_courier</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="195.625" y="280.8398"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="77.5" x="210.625" y="290.1135">number NISS</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="195.625" y="298.1348"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="117.5" x="210.625" y="307.4084">number NIF_courier</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="195.625" y="315.4297"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="85" x="210.625" y="324.7034">double weight</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="195.625" y="332.7246"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="113.75" x="210.625" y="341.9983">number ID_scooter</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="195.625" y="350.0195"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="127.5" x="210.625" y="359.2932">number ID_pharmacy</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="195.625" y="367.3145"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="116.25" x="210.625" y="376.5881">varchar user_email</text><line style="stroke:#A80036;stroke-width:1.875;" x1="186.875" x2="350.625" y1="384.6094" y2="384.6094"/><!--MD5=[88616e74bf96530d476f0a19698bdbd4]
+link Courier to Pharmacy--><path codeLine="34" d="M268.75,405.5 C268.75,424 268.75,442.6875 268.75,459.6125 " fill="none" id="Courier-Pharmacy" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="268.75" x2="268.75" y1="456.1625" y2="469.9125"/><ellipse cx="268.75" cy="456.1625" fill="none" rx="5" ry="5" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="273.75" x2="263.75" y1="464.9125" y2="464.9125"/><line style="stroke:#A80036;stroke-width:1.25;" x1="268.75" x2="261.25" y1="405.275" y2="395.275"/><line style="stroke:#A80036;stroke-width:1.25;" x1="268.75" x2="276.25" y1="405.275" y2="395.275"/><line style="stroke:#A80036;stroke-width:1.25;" x1="268.75" x2="268.75" y1="405.275" y2="395.275"/><ellipse cx="268.75" cy="412.775" fill="none" rx="5" ry="5" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[8f441247473e352108c04ddd8acc6d75]
+link DeliveryRunRegistry to Courier--><path codeLine="35" d="M198.9875,131.1625 C206.4125,148.5125 214.625,167.725 222.7375,186.7125 " fill="none" id="DeliveryRunRegistry-Courier" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="221.3109" x2="226.7125" y1="183.3554" y2="196"/><ellipse cx="221.3109" cy="183.3554" fill="none" rx="5" ry="5" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="229.3463" x2="220.1503" y1="189.4378" y2="193.3662"/><line style="stroke:#A80036;stroke-width:1.25;" x1="198.7784" x2="187.953" y1="130.6711" y2="124.4213"/><line style="stroke:#A80036;stroke-width:1.25;" x1="198.7784" x2="201.747" y1="130.6711" y2="118.5287"/><line style="stroke:#A80036;stroke-width:1.25;" x1="198.7784" x2="194.85" y1="130.6711" y2="121.475"/><ellipse cx="201.7247" cy="137.5681" fill="none" rx="5" ry="5" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[518f05a3609e9b1312278bd7db539e4d]
+link DeliveryRunRegistry to Client_Order--><path codeLine="36" d="M143.925,131.0125 C131.975,159.35 117.8875,192.7125 105.5875,221.8875 " fill="none" id="DeliveryRunRegistry-Client_Order" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="106.9928" x2="101.6625" y1="218.5252" y2="231.2"/><ellipse cx="106.9928" cy="218.5252" fill="none" rx="5" ry="5" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="108.2098" x2="98.9918" y1="228.5293" y2="224.6527"/><line style="stroke:#A80036;stroke-width:1.25;" x1="144.0583" x2="141.0413" y1="130.6866" y2="118.5562"/><line style="stroke:#A80036;stroke-width:1.25;" x1="144.0583" x2="154.8587" y1="130.6866" y2="124.3938"/><line style="stroke:#A80036;stroke-width:1.25;" x1="144.0583" x2="147.95" y1="130.6866" y2="121.475"/><ellipse cx="141.1395" cy="137.5954" fill="none" rx="5" ry="5" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[a81095a3b3510668d37e42624839470d]
+@startuml
+'skinparam linetype polyline
+
+
+class Pharmacy {
+  -varchar pharmacyName
+  -varchar companyName
+  -numberNIF
+}
+
+class DeliveryRunRegistry {
+    -numberID_delivery_run_registry
+    -numberID_courier
+    -numberID_order
+}
+
+class Client_Order {
+    -number ID_order
+    -number ID_client
+    -date order_date
+    -number ID_state
+}
+
+class Courier{
+    -number ID_courier
+    -varchar name_courier
+    -number NISS
+    -number NIF_courier
+    -double weight
+    -number ID_scooter
+    -number ID_pharmacy
+    -varchar user_email
+}
+
+Courier }o- -o| Pharmacy
+DeliveryRunRegistry }o- -o| Courier
+DeliveryRunRegistry }o- -o| Client_Order
+
+@enduml
+
+@startuml
+
+
+class Pharmacy {
+  -varchar pharmacyName
+  -varchar companyName
+  -numberNIF
+}
+
+class DeliveryRunRegistry {
+    -numberID_delivery_run_registry
+    -numberID_courier
+    -numberID_order
+}
+
+class Client_Order {
+    -number ID_order
+    -number ID_client
+    -date order_date
+    -number ID_state
+}
+
+class Courier{
+    -number ID_courier
+    -varchar name_courier
+    -number NISS
+    -number NIF_courier
+    -double weight
+    -number ID_scooter
+    -number ID_pharmacy
+    -varchar user_email
+}
+
+Courier }o- -o| Pharmacy
+DeliveryRunRegistry }o- -o| Courier
+DeliveryRunRegistry }o- -o| Client_Order
+
+@enduml
+
+PlantUML version 1.2020.23(Sun Dec 13 19:14:58 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

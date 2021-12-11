@@ -1,0 +1,9 @@
+@startuml
+autonumber
+actor "System" as SYS
+
+SYS -> SYS : update orders state \n(pending, processing, delivering, delivered)
+activate SYS
+deactivate SYS
+
+@enduml

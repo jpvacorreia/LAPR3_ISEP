@@ -1,0 +1,43 @@
+@startuml
+'skinparam linetype polyline
+
+
+class Pharmacy {
+    -int pharmacyid «PK»
+    -String name
+    -int NIF
+    -int idAdmin «FK»
+    -double gpsCoordinateX «FK»
+    -double gpsCoordinateY «FK»
+}
+
+class Address {
+    -String street
+    -double gpsCoordinateX «PK»
+    -double gpsCoordinateY «PK»
+    -int postalId «FK»
+    -double elevation
+}
+
+
+class PostalCode {
+    -int postalId «PK»
+    -int city
+    -int local
+}
+
+class Administrator {
+    -String name
+    -String email «FK»
+    -int idAdmin «PK»
+}
+
+Pharmacy }|-o| Administrator
+Pharmacy |o-o| Address
+
+Address }|--o| PostalCode
+
+
+
+
+@enduml

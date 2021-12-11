@@ -1,0 +1,12 @@
+@startuml
+autonumber
+actor "System" as SYS
+
+activate SYS
+SYS -> SYS : Non-registered user confirms data
+SYS -> SYS : Generates password
+SYS -> SYS : Gets user's email
+SYS -> SYS : Sends e-mail to user
+
+deactivate SYS
+@enduml

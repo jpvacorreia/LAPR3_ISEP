@@ -1,0 +1,24 @@
+@startuml
+'skinparam linetype polyline
+
+
+class Client {
+    -String clientid «PK»
+    -String name
+    -String email
+    -int NIF
+    -int credits
+    -int creditCardNumber «FK»
+    -double gpsCoordinateX «FK»
+    -double gpsCoordinateY «FK»
+}
+
+class User {
+    -String email «PK,FK»
+    -String password
+    -String user_type
+}
+
+Client |o--o| User
+
+@enduml

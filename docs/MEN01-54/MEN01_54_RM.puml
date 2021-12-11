@@ -1,0 +1,49 @@
+@startuml
+'skinparam linetype polyline
+
+
+class Administrator {
+    -NUMBER id_administrator «PK»
+    -VARCHAR name_administrator
+    -VARCHAR user_email
+}
+
+class Pharmacy {
+    -NUMBER id_pharmacy «PK»
+    -VARCHAR name_pharmacy
+    -NUMBER NIF_pharmacy
+    -NUMBER id_administrator «FK»
+    -NUMBER address_coordinateX «FK»
+    -NUMBER address_coordinateY «FK»
+}
+
+
+class Address {
+    -String street
+    -double gpsCoordinateX «PK»
+    -double gpsCoordinateY «PK»
+    -int postalId «FK»
+    -double elevation
+}
+
+
+class Scooter {
+    -NUMBER id_scooter «PK»
+    -NUMBER max_Battery_Capacity
+    -NUMBER state_Of_Charge
+    -NUMBER power_Output
+    -NUMBER weight
+    -NUMBER max_payload
+    -NUMBER id_pharmacy
+}
+
+
+Administrator |o-|{ Pharmacy
+
+Pharmacy |o--|{ Scooter
+Pharmacy |o-|{ Address
+
+
+
+
+@enduml

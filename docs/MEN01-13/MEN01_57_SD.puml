@@ -1,0 +1,57 @@
+@startuml
+autonumber
+
+actor "Client" as CLN
+participant ":CreateOrderUI" as UI
+participant ":CreateOrderController" as CTRL
+participant ":CreateOrder" as COR
+participant "Order:\nOrder" as OR
+participant "Product:\nProduct" as PROD
+
+activate CLN
+CLN -> UI : Wants to create an order
+activate UI
+UI -> CTRL : createOrder(NIF, cart)
+activate CTRL
+CTRL -> COR : createOrder(NIF, cart)
+activate COR
+COR -> OR** : createOrder(NIF, cart)
+deactivate COR
+deactivate CTRL
+UI --> CLN : You can now select Products
+deactivate UI
+loop
+CLN -> UI : Chooses a product
+activate UI
+UI -> CTRL : addProductToCart(Product)
+activate CTRL
+CTRL -> COR : addProductToCart(Product)
+activate COR
+COR -> PROD : getStock(Product)
+activate PROD
+deactivate PROD
+COR -> OR : addProductToCart(Product)
+activate OR
+deactivate OR
+deactivate COR
+deactivate CTRL
+end loop
+UI --> CLN : Shows products chosen and asks confirmation to order it
+deactivate UI
+CLN -> UI : Confirms
+activate UI
+UI -> CTRL : confirmedOrder(Order)
+activate CTRL
+CTRL -> COR : confirmedOrder(Order)
+activate COR
+COR -> OR : confirmedOrder(Order)
+activate OR
+OR -> OR : addOrder(Order)
+deactivate OR
+deactivate COR
+deactivate CTRL
+UI --> CLN :Successful operation
+deactivate UI
+deactivate CLN
+@enduml
+@enduml

@@ -1,0 +1,43 @@
+@startuml
+'skinparam linetype polyline
+
+
+class Pharmacy {
+   -int idPharmacy «PK»
+   -String namePharmacy
+   -int NIFPharmacy
+   -int IDAdministrator
+   -double addressX
+   -double addressY
+}
+
+class OrderLine{
+    -int orderID «PK»
+    -int idProduct «PK» «FK»
+    -int quantity
+}
+
+class Stock{
+    -int idPharmacy «PK»«FK»
+}
+
+class StockLine{
+    -int idPharmacy «PK» «FK»
+    -int idProduct «PK» «FK»
+    -int quantity
+}
+
+class Product{
+    -int idProduct «PK»
+    -String name
+    -int price
+    -int weight
+    -idProductType
+}
+
+OrderLine }o--o| Product
+StockLine }o--o| Product
+StockLine }o--o| Stock
+Stock |o--o| Pharmacy
+
+@enduml

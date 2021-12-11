@@ -1,0 +1,30 @@
+@startuml
+autonumber
+actor "Courier" as CRR
+
+activate CRR
+CRR -> ":Platform" : Wants to choose orders to deliver
+activate ":Platform"
+":Platform" --> CRR : shows list with all ready to deliver orders
+deactivate ":Platform"
+loop
+CRR -> ":Platform" : chooses
+activate ":Platform"
+
+":Platform" --> CRR : shows data and requests confirmation
+deactivate ":Platform"
+
+CRR -> ":Platform" : confirms
+activate ":Platform"
+
+":Platform" --> CRR : adds order to delivery run
+deactivate ":Platform"
+end loop
+
+CRR -> ":Platform" : completes delivery run
+activate ":Platform"
+
+":Platform" --> CRR : successful operation
+deactivate
+deactivate CRR
+@enduml

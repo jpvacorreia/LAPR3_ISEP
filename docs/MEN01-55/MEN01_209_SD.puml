@@ -1,0 +1,26 @@
+@startuml
+autonumber
+
+actor "Client" as CLN
+participant ":ClientProductViewUI" as UI
+participant ":ClientProductViewController" as CTRL
+participant ":ClientProductView" as CPV
+participant "Pharmacy:\nPharmacy" as Pharmacy
+
+activate CLN
+CLN -> UI : View Products from a Pharmacy
+activate UI
+UI -> CTRL : getProducts()
+activate CTRL
+CTRL -> CPV: getProducts()
+activate CPV
+CPV -> Pharmacy : getProducts()
+activate Pharmacy
+deactivate Pharmacy
+deactivate CPV
+deactivate CTRL
+UI --> CLN : Shows Products
+deactivate UI
+deactivate CLN
+@enduml
+@enduml

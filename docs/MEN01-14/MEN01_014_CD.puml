@@ -1,0 +1,47 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+left to right direction
+
+
+class ClientRegistry {
+  +Client newClient(name, email, address, postalCode, coordinateX, coordinateY, nif, creditCardNumber, creditCardValidity, ccv)
+  +registerClient(client)
+  +validateClient(client)
+  -addClient(client)
+  +registerClientAsUser()
+}
+
+class Client {
+  -String name
+  -String email
+  -int NIF
+  -int creditCardNumber
+  -int creditCardValidity
+  -int ccv
+  -Address address
+
+  +newClient(name, email, address, postalCode, coordinateX, coordinateY, nif, creditCardNumber, creditCardValidity, ccv)
+
+}
+
+interface PasswordGeneratorAlgorithm  <<interface>>{
+  +generatePassword(name,email)
+}
+
+
+class User {
+  -String email
+  -String password
+  -String userType
+}
+
+
+ClientRegistry "1" -- "*" Client : has registered >
+ClientRegistry "1" -- "*" PasswordGeneratorAlgorithm : >
+Client "0..1" -- "1" User: acts as >
+PasswordGeneratorAlgorithm "1" -- "1" User : generates password >
+
+@enduml
+
+

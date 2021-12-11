@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1008.75px" preserveAspectRatio="none" style="width:2471px;height:1008px;" version="1.1" viewBox="0 0 2471 1008" width="2471.25px" zoomAndPan="magnify"><defs><filter height="300%" id="ffrwizhbxco5n" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="755.6836" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="28.125" y="124.5117"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="58.3789" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="434.375" y="172.8906"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="405.0391" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="434.375" y="269.209"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="168.0078" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="434.375" y="712.1875"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="288.3984" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="823.125" y="327.5879"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="130.0684" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="823.125" y="750.127"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="37.5" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="1093.125" y="365.5273"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="154.5801" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="1264.375" y="461.4063"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="92.1289" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="1264.375" y="788.0664"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="83.7012" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="1681.25" y="532.2852"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="45.7617" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="2124.375" y="570.2246"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 5.0,5.0;" x1="33.75" x2="33.75" y1="112.0117" y2="902.6953"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 5.0,5.0;" x1="440.625" x2="440.625" y1="112.0117" y2="902.6953"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 5.0,5.0;" x1="829.375" x2="829.375" y1="112.0117" y2="902.6953"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 5.0,5.0;" x1="1099.375" x2="1099.375" y1="112.0117" y2="902.6953"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 5.0,5.0;" x1="1270.625" x2="1270.625" y1="112.0117" y2="902.6953"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 5.0,5.0;" x1="1686.875" x2="1686.875" y1="513.0957" y2="902.6953"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 5.0,5.0;" x1="2130" x2="2130" y1="571.416" y2="902.6953"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 5.0,5.0;" x1="2388.125" x2="2388.125" y1="629.6777" y2="902.6953"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="48.75" x="6.25" y="108.1665">Admin</text><ellipse cx="34.375" cy="18.75" fill="#FEFECE" filter="url(#ffrwizhbxco5n)" rx="10" ry="10" style="stroke: #A80036; stroke-width: 2.5;"/><path d="M34.375,28.75 L34.375,62.5 M18.125,38.75 L50.625,38.75 M34.375,62.5 L18.125,81.25 M34.375,62.5 L50.625,81.25 " fill="none" filter="url(#ffrwizhbxco5n)" style="stroke: #A80036; stroke-width: 2.5;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="48.75" x="6.25" y="919.6118">Admin</text><ellipse cx="34.375" cy="935.957" fill="#FEFECE" filter="url(#ffrwizhbxco5n)" rx="10" ry="10" style="stroke: #A80036; stroke-width: 2.5;"/><path d="M34.375,945.957 L34.375,979.707 M18.125,955.957 L50.625,955.957 M34.375,979.707 L18.125,998.457 M34.375,979.707 L50.625,998.457 " fill="none" filter="url(#ffrwizhbxco5n)" style="stroke: #A80036; stroke-width: 2.5;"/><rect fill="#FEFECE" filter="url(#ffrwizhbxco5n)" height="39.5117" style="stroke: #A80036; stroke-width: 1.875;" width="172.5" x="351.875" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="155" x="360.625" y="93.1665">:UpdatePharmacyUI</text><rect fill="#FEFECE" filter="url(#ffrwizhbxco5n)" height="39.5117" style="stroke: #A80036; stroke-width: 1.875;" width="172.5" x="351.875" y="901.4453"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="155" x="360.625" y="928.3618">:UpdatePharmacyUI</text><rect fill="#FEFECE" filter="url(#ffrwizhbxco5n)" height="39.5117" style="stroke: #A80036; stroke-width: 1.875;" width="235" x="709.375" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="217.5" x="718.125" y="93.1665">:UpdatePharmacyController</text><rect fill="#FEFECE" filter="url(#ffrwizhbxco5n)" height="39.5117" style="stroke: #A80036; stroke-width: 1.875;" width="235" x="709.375" y="901.4453"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="217.5" x="718.125" y="928.3618">:UpdatePharmacyController</text><rect fill="#FEFECE" filter="url(#ffrwizhbxco5n)" height="39.5117" style="stroke: #A80036; stroke-width: 1.875;" width="87.5" x="1053.125" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="70" x="1061.875" y="93.1665">:Platform</text><rect fill="#FEFECE" filter="url(#ffrwizhbxco5n)" height="39.5117" style="stroke: #A80036; stroke-width: 1.875;" width="87.5" x="1053.125" y="901.4453"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="70" x="1061.875" y="928.3618">:Platform</text><rect fill="#FEFECE" filter="url(#ffrwizhbxco5n)" height="39.5117" style="stroke: #A80036; stroke-width: 1.875;" width="220" x="1158.125" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="202.5" x="1166.875" y="93.1665">UPDPH: UpdatePharmacy</text><rect fill="#FEFECE" filter="url(#ffrwizhbxco5n)" height="39.5117" style="stroke: #A80036; stroke-width: 1.875;" width="220" x="1158.125" y="901.4453"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="202.5" x="1166.875" y="928.3618">UPDPH: UpdatePharmacy</text><rect fill="#FEFECE" filter="url(#ffrwizhbxco5n)" height="39.5117" style="stroke: #A80036; stroke-width: 1.875;" width="166.25" x="1601.875" y="901.4453"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="148.75" x="1610.625" y="928.3618">PHARM: Pharmacy</text><rect fill="#FEFECE" filter="url(#ffrwizhbxco5n)" height="39.5117" style="stroke: #A80036; stroke-width: 1.875;" width="128.75" x="2063.75" y="901.4453"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="111.25" x="2072.5" y="928.3618">addr: Address</text><rect fill="#FEFECE" filter="url(#ffrwizhbxco5n)" height="39.5117" style="stroke: #A80036; stroke-width: 1.875;" width="137.5" x="2316.875" y="901.4453"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="120" x="2325.625" y="928.3618">pc: PostalCode</text><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="755.6836" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="28.125" y="124.5117"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="58.3789" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="434.375" y="172.8906"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="405.0391" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="434.375" y="269.209"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="168.0078" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="434.375" y="712.1875"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="288.3984" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="823.125" y="327.5879"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="130.0684" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="823.125" y="750.127"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="37.5" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="1093.125" y="365.5273"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="154.5801" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="1264.375" y="461.4063"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="92.1289" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="1264.375" y="788.0664"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="83.7012" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="1681.25" y="532.2852"/><rect fill="#FFFFFF" filter="url(#ffrwizhbxco5n)" height="45.7617" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="2124.375" y="570.2246"/><polygon fill="#A80036" points="419.375,167.8906,431.875,172.8906,419.375,177.8906,424.375,172.8906" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="40.625" x2="426.875" y1="172.8906" y2="172.8906"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8.75" x="49.375" y="156.6003">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="225" x="63.125" y="146.3806">initiates the Pharmacy creation</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="150" x="68.125" y="166.8201">(1 part of the update)</text><polygon fill="#A80036" points="54.375,226.2695,41.875,231.2695,54.375,236.2695,49.375,231.2695" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 2.0,2.0;" x1="46.875" x2="439.375" y1="231.2695" y2="231.2695"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8.75" x="61.875" y="214.9792">2</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="350" x="75.625" y="204.7595">requests Pharmacy data (name, nif, postalCode,</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="253.75" x="80.625" y="225.199">idAdmin, coordinateX, coordinateY)</text><polygon fill="#A80036" points="419.375,264.209,431.875,269.209,419.375,274.209,424.375,269.209" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="40.625" x2="426.875" y1="269.209" y2="269.209"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8.75" x="49.375" y="263.1384">3</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="161.25" x="63.125" y="263.1384">inserts requested data</text><polygon fill="#A80036" points="808.125,322.5879,820.625,327.5879,808.125,332.5879,813.125,327.5879" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="446.875" x2="815.625" y1="327.5879" y2="327.5879"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8.75" x="455.625" y="311.2976">4</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="338.75" x="469.375" y="301.0779">newPharmacy(name, nif, postalCode, idAdmin,</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="185" x="474.375" y="321.5173">coordinateX, coordinateY)</text><polygon fill="#A80036" points="1078.125,360.5273,1090.625,365.5273,1078.125,370.5273,1083.125,365.5273" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="835.625" x2="1085.625" y1="365.5273" y2="365.5273"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8.75" x="844.375" y="359.4568">5</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="220" x="858.125" y="359.4568">updph=getRegisterPharmacy()</text><polygon fill="#A80036" points="1249.375,456.4063,1261.875,461.4063,1249.375,466.4063,1254.375,461.4063" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="835.625" x2="1256.875" y1="461.4063" y2="461.4063"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8.75" x="844.375" y="445.116">6</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="338.75" x="858.125" y="434.8962">newPharmacy(name, nif, postalCode, idAdmin,</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="185" x="863.125" y="455.3357">coordinateX, coordinateY)</text><polygon fill="#A80036" points="1586.875,514.7852,1599.375,519.7852,1586.875,524.7852,1591.875,519.7852" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 2.0,2.0;" x1="1276.875" x2="1594.375" y1="519.7852" y2="519.7852"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8.75" x="1285.625" y="503.4949">7</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="281.25" x="1299.375" y="493.2751">create(name, nif, postalCode, idAdmin,</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="185" x="1304.375" y="513.7146">coordinateX, coordinateY)</text><rect fill="#FEFECE" filter="url(#ffrwizhbxco5n)" height="39.5117" style="stroke: #A80036; stroke-width: 1.875;" width="166.25" x="1601.875" y="471.5234"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="148.75" x="1610.625" y="498.4399">PHARM: Pharmacy</text><polygon fill="#A80036" points="2048.75,552.7246,2061.25,557.7246,2048.75,562.7246,2053.75,557.7246" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 2.0,2.0;" x1="1693.75" x2="2056.25" y1="557.7246" y2="557.7246"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8.75" x="1702.5" y="551.6541">8</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="326.25" x="1716.25" y="551.6541">create(postalCode, coordinateX, coordinateY)</text><rect fill="#FEFECE" filter="url(#ffrwizhbxco5n)" height="39.5117" style="stroke: #A80036; stroke-width: 1.875;" width="128.75" x="2063.75" y="529.7852"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="111.25" x="2072.5" y="556.7017">addr: Address</text><polygon fill="#A80036" points="2301.875,610.9863,2314.375,615.9863,2301.875,620.9863,2306.875,615.9863" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 2.0,2.0;" x1="2130.625" x2="2309.375" y1="615.9863" y2="615.9863"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8.75" x="2139.375" y="609.9158">9</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="136.25" x="2153.125" y="609.9158">create(postalCode)</text><rect fill="#FEFECE" filter="url(#ffrwizhbxco5n)" height="39.5117" style="stroke: #A80036; stroke-width: 1.875;" width="137.5" x="2316.875" y="588.0469"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="120" x="2325.625" y="614.9634">pc: PostalCode</text><polygon fill="#A80036" points="54.375,669.248,41.875,674.248,54.375,679.248,49.375,674.248" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 2.0,2.0;" x1="46.875" x2="439.375" y1="674.248" y2="674.248"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="17.5" x="61.875" y="668.1775">10</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="268.75" x="84.375" y="668.1775">shows data and asks for confirmation</text><polygon fill="#A80036" points="419.375,707.1875,431.875,712.1875,419.375,717.1875,424.375,712.1875" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="40.625" x2="426.875" y1="712.1875" y2="712.1875"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="17.5" x="49.375" y="706.1169">11</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="61.25" x="71.875" y="706.1169">confirms</text><polygon fill="#A80036" points="808.125,745.127,820.625,750.127,808.125,755.127,813.125,750.127" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="446.875" x2="815.625" y1="750.127" y2="750.127"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="17.5" x="455.625" y="744.0564">12</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="137.5" x="478.125" y="744.0564">registerPharmacy()</text><polygon fill="#A80036" points="1249.375,783.0664,1261.875,788.0664,1249.375,793.0664,1254.375,788.0664" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="835.625" x2="1256.875" y1="788.0664" y2="788.0664"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="17.5" x="844.375" y="781.9958">13</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="182.5" x="866.875" y="781.9958">registerPharmacy(pharm)</text><line style="stroke: #A80036; stroke-width: 1.25;" x1="1276.875" x2="1329.375" y1="826.0059" y2="826.0059"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="1329.375" x2="1329.375" y1="826.0059" y2="842.2559"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="1278.125" x2="1329.375" y1="842.2559" y2="842.2559"/><polygon fill="#A80036" points="1290.625,837.2559,1278.125,842.2559,1290.625,847.2559,1285.625,842.2559" style="stroke: #A80036; stroke-width: 1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="17.5" x="1285.625" y="819.9353">14</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="191.25" x="1308.125" y="819.9353">validatesPharmacy(pharm)</text><polygon fill="#A80036" points="48.125,875.1953,35.625,880.1953,48.125,885.1953,43.125,880.1953" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 2.0,2.0;" x1="40.625" x2="439.375" y1="880.1953" y2="880.1953"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="17.5" x="55.625" y="874.1248">15</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="233.75" x="78.125" y="874.1248">informs the successful operation</text><!--MD5=[a6728fafaa8ffb784f40cf9f59a12c3f]
+@startuml
+autonumber
+'hide footbox
+actor "Admin" as ADM
+
+participant ":UpdatePharmacyUI" as UI
+participant ":UpdatePharmacyController" as CTRL
+participant ":Platform" as PLAT
+participant "UPDPH: UpdatePharmacy" as UPDPH
+participant "PHARM: Pharmacy" as PHARM
+participant "addr: Address" as ADDR
+participant "pc: PostalCode" as PC
+
+activate ADM
+
+ADM -> UI : initiates the Pharmacy creation\n (1 part of the update)
+activate UI
+UI - -> ADM : requests Pharmacy data (name, nif, postalCode,\n idAdmin, coordinateX, coordinateY)
+deactivate UI
+
+ADM -> UI : inserts requested data
+activate UI
+UI -> CTRL : newPharmacy(name, nif, postalCode, idAdmin,\n coordinateX, coordinateY)
+activate CTRL
+CTRL -> PLAT : updph=getRegisterPharmacy()
+activate PLAT
+deactivate PLAT
+CTRL -> UPDPH : newPharmacy(name, nif, postalCode, idAdmin,\n coordinateX, coordinateY)
+activate UPDPH
+UPDPH - -> PHARM** : create(name, nif, postalCode, idAdmin,\n coordinateX, coordinateY)
+activate PHARM
+PHARM - -> ADDR** : create(postalCode, coordinateX, coordinateY)
+activate ADDR
+ADDR - -> PC** : create(postalCode)
+deactivate ADDR
+deactivate PHARM
+deactivate UPDPH
+deactivate CTRL
+UI - -> ADM : shows data and asks for confirmation
+deactivate UI
+
+ADM -> UI : confirms
+activate UI
+UI -> CTRL : registerPharmacy()
+activate CTRL
+CTRL -> UPDPH : registerPharmacy(pharm)
+activate UPDPH
+UPDPH -> UPDPH : validatesPharmacy(pharm)
+UI - -> ADM : informs the successful operation
+deactivate UPDPH
+deactivate CTRL
+deactivate UI
+
+deactivate ADM
+
+@enduml
+
+@startuml
+autonumber
+actor "Admin" as ADM
+
+participant ":UpdatePharmacyUI" as UI
+participant ":UpdatePharmacyController" as CTRL
+participant ":Platform" as PLAT
+participant "UPDPH: UpdatePharmacy" as UPDPH
+participant "PHARM: Pharmacy" as PHARM
+participant "addr: Address" as ADDR
+participant "pc: PostalCode" as PC
+
+activate ADM
+
+ADM -> UI : initiates the Pharmacy creation\n (1 part of the update)
+activate UI
+UI - -> ADM : requests Pharmacy data (name, nif, postalCode,\n idAdmin, coordinateX, coordinateY)
+deactivate UI
+
+ADM -> UI : inserts requested data
+activate UI
+UI -> CTRL : newPharmacy(name, nif, postalCode, idAdmin,\n coordinateX, coordinateY)
+activate CTRL
+CTRL -> PLAT : updph=getRegisterPharmacy()
+activate PLAT
+deactivate PLAT
+CTRL -> UPDPH : newPharmacy(name, nif, postalCode, idAdmin,\n coordinateX, coordinateY)
+activate UPDPH
+UPDPH - -> PHARM** : create(name, nif, postalCode, idAdmin,\n coordinateX, coordinateY)
+activate PHARM
+PHARM - -> ADDR** : create(postalCode, coordinateX, coordinateY)
+activate ADDR
+ADDR - -> PC** : create(postalCode)
+deactivate ADDR
+deactivate PHARM
+deactivate UPDPH
+deactivate CTRL
+UI - -> ADM : shows data and asks for confirmation
+deactivate UI
+
+ADM -> UI : confirms
+activate UI
+UI -> CTRL : registerPharmacy()
+activate CTRL
+CTRL -> UPDPH : registerPharmacy(pharm)
+activate UPDPH
+UPDPH -> UPDPH : validatesPharmacy(pharm)
+UI - -> ADM : informs the successful operation
+deactivate UPDPH
+deactivate CTRL
+deactivate UI
+
+deactivate ADM
+
+@enduml
+
+PlantUML version 1.2020.20(Sat Nov 21 10:02:45 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

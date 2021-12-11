@@ -1,0 +1,30 @@
+@startuml
+autonumber
+actor "Client" as CLN
+
+activate CLN
+CLN -> ":Platform" : Wants to choose products
+activate ":Platform"
+":Platform" --> CLN : shows list with all products
+deactivate ":Platform"
+loop
+CLN -> ":Platform" : chooses
+activate ":Platform"
+
+":Platform" --> CLN : shows data and requests confirmation
+deactivate ":Platform"
+
+CLN -> ":Platform" : confirms
+activate ":Platform"
+
+":Platform" --> CLN : adds product to cart
+deactivate ":Platform"
+end loop
+
+CLN -> ":Platform" : complete order
+activate ":Platform"
+
+":Platform" --> CLN : successful operation
+deactivate
+deactivate CLN
+@enduml

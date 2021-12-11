@@ -1,0 +1,83 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+left to right direction
+
+class Platform {
+}
+
+class RegisterUnregisteredUserUI {
+}
+
+class RegisterUnregisteredClientController {
+ +newClient(name, email, address, postalCode, coordinateX, coordinateY, nif, creditCardNumber, creditCardValidity, ccv)
+ +registerClient()
+}
+
+
+class ClientRegistry {
+  +Client newClient(name, email, address, postalCode, coordinateX, coordinateY, nif, creditCardNumber, creditCardValidity, ccv)
+  +registerClient(client)
+  +validateClient(client)
+  -addClient(client)
+  +registerClientAsUser()
+}
+
+class Client {
+  -String name
+  -String email
+  -int NIF
+  -int creditCardNumber
+  -int creditCardValidity
+  -int ccv
+  -Address address
+
+  +newClient(name, email, address, postalCode, coordinateX, coordinateY, nif, creditCardNumber, creditCardValidity, ccv)
+
+}
+
+class Address {
+  -String street
+  -String locality
+  -double coordinateX
+  -double coordinateY
+  -PostalCode postalCode
+
+  +Address(address, postalCode)
+}
+
+class PostalCode {
+  -int city
+  -int local
+  +postalCode(postalCode)
+}
+
+interface PasswordGeneratorAlgorithm  <<interface>>{
+  +generatePassword(name,email)
+}
+
+
+class User {
+  -String email
+  -String password
+  -String userType
+}
+
+
+RegisterUnregisteredUserUI ..> RegisterUnregisteredClientController
+RegisterUnregisteredClientController ..> Platform
+RegisterUnregisteredClientController ...> ClientRegistry
+RegisterUnregisteredClientController ...> Client
+RegisterUnregisteredClientController ...> PasswordGeneratorAlgorithm
+
+Platform "1"-->"1" ClientRegistry
+ClientRegistry "1" -- "*" Client : has registered >
+ClientRegistry "1" -- "*" PasswordGeneratorAlgorithm : >
+Client "1" -- "1" Address: has  >
+Client "0..1" -- "1" User: acts as >
+PasswordGeneratorAlgorithm "1" -- "1" User : generates password >
+Address "1..*" -- "1" PostalCode: has  >
+
+@enduml
+
+

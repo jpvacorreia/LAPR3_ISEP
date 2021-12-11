@@ -1,0 +1,14 @@
+@startuml
+'skinparam linetype polyline
+
+
+
+class Order{
+    -int orderID «PK»
+    -int clientID «FK»
+    -int state
+    -Date orderDate
+    -List cart
+}
+
+@enduml

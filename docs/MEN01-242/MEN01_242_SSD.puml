@@ -1,0 +1,17 @@
+@startuml
+autonumber
+actor "Admin" as Admin
+
+activate Admin
+Admin -> ":Platform" : Wants to simulate a delivery run
+activate ":Platform"
+":Platform" --> "Admin" : Shows available orders
+"Admin" --> ":Platform" : Chooses orders to deliver
+":Platform" --> "Admin" : Shows delivery methods
+"Admin" --> ":Platform" : Chooses delivery method
+":Platform" --> "Admin" : Shows simulation criteria
+"Admin" --> ":Platform" : Chooses simulation criteria
+":Platform" --> "Admin" : Shows results
+deactivate ":Platform"
+deactivate Admin
+@enduml

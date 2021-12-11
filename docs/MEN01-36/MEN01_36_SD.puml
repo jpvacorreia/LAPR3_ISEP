@@ -1,0 +1,19 @@
+@startuml
+autonumber
+
+actor "System" as SYS
+participant "Order :\nOrder" as ORD
+participant "Client :\nClient" as CLT
+participant ":Product" as PRD
+
+activate SYS
+activate ORD
+SYS -> ORD : order proceeds to be paid for
+activate CLT
+ORD -> CLT : cred = getCreditCard()
+deactivate CLT
+ORD -> ORD : makePayment()
+ORD --> SYS : Success
+deactivate SYS
+@enduml
+

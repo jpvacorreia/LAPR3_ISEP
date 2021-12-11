@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="341.25px" preserveAspectRatio="none" style="width:191px;height:341px;" version="1.1" viewBox="0 0 191 341" width="191.25px" zoomAndPan="magnify"><defs><filter height="300%" id="fx9ljbcyszb7v" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[72136138052d025cffdce3c22fbd185f]
+class Product--><rect codeLine="4" fill="#FEFECE" filter="url(#fx9ljbcyszb7v)" height="129.1797" id="Product" style="stroke: #A80036; stroke-width: 1.875;" width="151.25" x="15.625" y="8.75"/><ellipse cx="60.8125" cy="28.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke: #A80036; stroke-width: 1.25;"/><path d="M63.3125,24.375 Q63.5664,23.75 63.8594,23.4375 Q64.1523,23.125 64.4844,23.125 Q65.0703,23.125 65.4414,23.4766 Q65.8125,23.8281 65.8125,24.6484 L65.8125,26.6016 Q65.8125,27.4219 65.4609,27.7734 Q65.1094,28.125 64.5625,28.125 Q64.0742,28.125 63.7617,27.9102 Q63.4492,27.6953 63.3125,27.1289 Q63.2539,26.7383 63.0391,26.5234 Q62.6484,26.1133 61.9453,25.8789 Q61.2422,25.625 60.5391,25.625 Q59.6602,25.625 58.918,25.9766 Q58.1953,26.3281 57.6289,27.1094 Q57.0625,27.8906 57.0625,28.9648 L57.0625,30.1172 Q57.0625,31.4063 58.1172,32.2656 Q59.1719,33.125 61.0469,33.125 Q62.1602,33.125 62.9414,32.8711 Q63.3906,32.7344 63.8984,32.2852 Q64.2305,32.0313 64.4063,31.9531 Q64.582,31.875 64.7969,31.875 Q65.207,31.875 65.5,32.207 Q65.8125,32.5195 65.8125,32.9688 Q65.8125,33.3984 65.3828,33.9063 Q64.7578,34.6484 63.7617,35.0586 Q62.4531,35.625 60.8516,35.625 Q58.9766,35.625 57.4727,34.8828 Q56.2617,34.2969 55.4023,33.0273 Q54.5625,31.7578 54.5625,30.2539 L54.5625,28.8867 Q54.5625,27.3242 55.3047,25.957 Q56.0664,24.5898 57.375,23.8672 Q58.7031,23.125 60.1875,23.125 Q61.0859,23.125 61.8672,23.4375 Q62.6484,23.75 63.3125,24.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="52.5" x="84.1875" y="34.8877">Product</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="16.875" x2="165.625" y1="48.75" y2="48.75"/><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="25.625" y="58.75"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="115" x="40.625" y="68.0237">String productType</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="25.625" y="76.0449"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="118.75" x="40.625" y="85.3186">String productName</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="25.625" y="93.3398"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="73.75" x="40.625" y="102.6135">double price</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="25.625" y="110.6348"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="85" x="40.625" y="119.9084">double weight</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="16.875" x2="165.625" y1="127.9297" y2="127.9297"/><!--MD5=[7f2a9fafcebe4f099f71398fd3e2ed00]
+class Pharmacy--><rect codeLine="11" fill="#FEFECE" filter="url(#fx9ljbcyszb7v)" height="111.8848" id="Pharmacy" style="stroke: #A80036; stroke-width: 1.875;" width="165" x="8.75" y="212.5"/><ellipse cx="52.8125" cy="232.5" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke: #A80036; stroke-width: 1.25;"/><path d="M55.3125,228.125 Q55.5664,227.5 55.8594,227.1875 Q56.1523,226.875 56.4844,226.875 Q57.0703,226.875 57.4414,227.2266 Q57.8125,227.5781 57.8125,228.3984 L57.8125,230.3516 Q57.8125,231.1719 57.4609,231.5234 Q57.1094,231.875 56.5625,231.875 Q56.0742,231.875 55.7617,231.6602 Q55.4492,231.4453 55.3125,230.8789 Q55.2539,230.4883 55.0391,230.2734 Q54.6484,229.8633 53.9453,229.6289 Q53.2422,229.375 52.5391,229.375 Q51.6602,229.375 50.918,229.7266 Q50.1953,230.0781 49.6289,230.8594 Q49.0625,231.6406 49.0625,232.7148 L49.0625,233.8672 Q49.0625,235.1563 50.1172,236.0156 Q51.1719,236.875 53.0469,236.875 Q54.1602,236.875 54.9414,236.6211 Q55.3906,236.4844 55.8984,236.0352 Q56.2305,235.7813 56.4063,235.7031 Q56.582,235.625 56.7969,235.625 Q57.207,235.625 57.5,235.957 Q57.8125,236.2695 57.8125,236.7188 Q57.8125,237.1484 57.3828,237.6563 Q56.7578,238.3984 55.7617,238.8086 Q54.4531,239.375 52.8516,239.375 Q50.9766,239.375 49.4727,238.6328 Q48.2617,238.0469 47.4023,236.7773 Q46.5625,235.5078 46.5625,234.0039 L46.5625,232.6367 Q46.5625,231.0742 47.3047,229.707 Q48.0664,228.3398 49.375,227.6172 Q50.7031,226.875 52.1875,226.875 Q53.0859,226.875 53.8672,227.1875 Q54.6484,227.5 55.3125,228.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="68.75" x="75.9375" y="238.6377">Pharmacy</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="10" x2="172.5" y1="252.5" y2="252.5"/><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="262.5"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="132.5" x="33.75" y="271.7737">String pharmacyName</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="279.7949"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="127.5" x="33.75" y="289.0686">String companyName</text><rect fill="none" height="7.5" style="stroke: #C82930; stroke-width: 1.25;" width="7.5" x="18.75" y="297.0898"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="36.25" x="33.75" y="306.3635">int NIF</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="10" x2="172.5" y1="314.3848" y2="314.3848"/><!--MD5=[ba87ef001a42588939f676dd8642ea05]
+link Product to Pharmacy--><path codeLine="17" d="M91.25,147.9425 C91.25,165.785 91.25,184.7413 91.25,202.1744 " fill="none" id="Product-Pharmacy" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="91.25" x2="91.25" y1="198.493" y2="212.243"/><ellipse cx="91.25" cy="198.493" fill="none" rx="5" ry="5" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="96.25" x2="86.25" y1="207.243" y2="207.243"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="91.25" x2="83.75" y1="147.6112" y2="137.6112"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="91.25" x2="98.75" y1="147.6112" y2="137.6112"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="91.25" x2="91.25" y1="147.6112" y2="137.6112"/><ellipse cx="91.25" cy="155.1112" fill="none" rx="5" ry="5" style="stroke: #A80036; stroke-width: 1.25;"/><!--MD5=[f4b5766efd61f56cdc350420bfd545a2]
+@startuml
+'skinparam linetype polyline
+
+
+class Product{
+    -String productType
+    -String productName
+    -double price
+    -double weight
+}
+
+class Pharmacy {
+  -String pharmacyName
+  -String companyName
+  -int NIF
+}
+
+Product }o- -o| Pharmacy
+
+@enduml
+
+@startuml
+
+
+class Product{
+    -String productType
+    -String productName
+    -double price
+    -double weight
+}
+
+class Pharmacy {
+  -String pharmacyName
+  -String companyName
+  -int NIF
+}
+
+Product }o- -o| Pharmacy
+
+@enduml
+
+PlantUML version 1.2020.20(Sat Nov 21 10:02:45 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

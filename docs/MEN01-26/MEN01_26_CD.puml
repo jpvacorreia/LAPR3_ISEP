@@ -1,0 +1,22 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+'left to right direction
+
+
+class Order {
+    -String orderId «PK»
+    -String clientId «PK,FK»
+    -int state
+    +Order(int orderID, int clientNIF, Map<Product, Integer> cart)
+    +makePayment()
+    +calculatePrice(Map<Product, Integer> cart)
+    +updateState(newState)
+}
+
+
+Order ..> Order : updates state
+
+@enduml
+
+

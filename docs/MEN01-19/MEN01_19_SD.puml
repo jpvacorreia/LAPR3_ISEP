@@ -1,0 +1,30 @@
+@startuml
+autonumber
+
+actor "Client" as CLN
+participant ":CreateOrderUI" as UI
+participant "CreateOrderController" as CTRL
+participant ":System" as SYS
+
+activate CLN
+ref over CLN
+MEN_01_57_SD
+end ref
+CLN -> UI : confirms an order and starts automatic payment process
+activate UI
+UI -> CTRL : makePayment()
+activate CTRL
+CTRL -> SYS : makePayment()
+activate SYS
+ref over SYS
+MEN_01_36_SD
+end ref
+deactivate SYS
+deactivate CTRL
+UI -> CLN : begins the automatic payment process and generates an invoice and sends it by email
+deactivate UI
+CLN -> CLN : receives invoice by email
+
+deactivate CLN
+@enduml
+@enduml

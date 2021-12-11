@@ -1,0 +1,62 @@
+CREATE OR REPLACE PROCEDURE addStockLine(phID number, prodID number, quantityV number)
+AS
+    BEGIN
+        INSERT INTO STOCKLINE(STOCKPHARMACYID_PHARMACY, PRODUCTID_PRODUCT, QUANTITY) VALUES (phID, prodID, quantityV);
+    end;
+/
+
+CREATE OR REPLACE PROCEDURE removeStockLine(phID number, prodID number)
+AS
+    BEGIN
+        DELETE FROM STOCKLINE WHERE STOCKPHARMACYID_PHARMACY = phID AND PRODUCTID_PRODUCT = prodID;
+    end;
+/
+
+CREATE OR REPLACE FUNCTION getStockLines(phID number)
+RETURN SYS_REFCURSOR
+AS
+    stockLines SYS_REFCURSOR;
+BEGIN
+    OPEN stockLines FOR SELECT * FROM STOCKLINE WHERE STOCKPHARMACYID_PHARMACY = phID;
+    RETURN stockLines;
+end;
+/
+
+CREATE OR REPLACE PROCEDURE updateStockLine(phID number, prodID number, toRemove number)
+AS
+    BEGIN
+        UPDATE STOCKLINE
+        SET QUANTITY = toRemove
+        WHERE STOCKPHARMACYID_PHARMACY = phID AND PRODUCTID_PRODUCT = prodID;
+    end;
+/
+
+CREATE OR REPLACE FUNCTION getQuantity(phID NUMBER, prodID NUMBER)
+RETURN SYS_REFCURSOR
+AS
+    qtd SYS_REFCURSOR;
+        BEGIN
+            OPEN qtd FOR SELECT QUANTITY FROM STOCKLINE WHERE STOCKPHARMACYID_PHARMACY = phID AND PRODUCTID_PRODUCT = prodID;
+            RETURN qtd;
+        end;
+/
+
+CREATE OR REPLACE FUNCTION getAllStockLines
+Return sys_refcursor
+AS
+cur SYS_REFCURSOR;
+begin
+open cur for select * from StockLine;
+return cur;
+end;
+/
+
+CREATE OR REPLACE FUNCTION getStockLine(phID NUMBER, prodID NUMBER)
+    RETURN SYS_REFCURSOR
+AS
+    sl SYS_REFCURSOR;
+BEGIN
+    OPEN sl FOR SELECT * FROM STOCKLINE WHERE STOCKPHARMACYID_PHARMACY = phID AND PRODUCTID_PRODUCT = prodID;
+    RETURN sl;
+end;
+/

@@ -1,0 +1,62 @@
+@startuml
+autonumber
+
+actor "Courier" as CLN
+participant ":CourierDeliveryRunViewUI" as UI2
+participant ":CreateDeliveryRunUI" as UI
+participant ":CreateDeliveryRunController" as CTRL
+participant ":DeliveryRunRegistry" as DRR
+participant "DeliveryRun:\nDeliveryRun" as DR
+participant "Order:\nOrder" as OR
+
+activate CLN
+CLN -> UI2 : View Orders from a Pharmacy
+activate UI2
+UI2 --> CLN : Shows Orders
+deactivate UI2
+CLN -> UI : Wants to create an DeliveryRun
+activate UI
+UI -> CTRL : DeliveryRunRegistry()
+activate CTRL
+CTRL -> DRR : DeliveryRunRegistry()
+activate DRR
+DRR -> DR** : DeliveryRunRegistry()
+deactivate DRR
+deactivate CTRL
+UI --> CLN : You can now select Orders
+deactivate UI
+loop
+CLN -> UI : Chooses a Order
+activate UI
+UI -> CTRL : addOrderToDeliveryRun(Order)
+activate CTRL
+CTRL -> DRR : addOrderToDeliveryRun(Order)
+activate DRR
+DRR -> OR : getOrderID(Order)
+activate OR
+deactivate OR
+DRR -> DR : addOrderToDeliveryRun(Order)
+activate DR
+deactivate DR
+deactivate DRR
+deactivate CTRL
+end loop
+UI --> CLN : Shows Orders chosen and asks confirmation to deliver it
+deactivate UI
+CLN -> UI : Confirms
+activate UI
+UI -> CTRL : confirmedDeliveryRun(DeliveryRun)
+activate CTRL
+CTRL -> DRR : confirmedDeliveryRun(DeliveryRun)
+activate DRR
+DRR -> DR : confirmedDeliveryRun(DeliveryRun)
+activate DR
+DR -> DR : addDeliveryRun(DeliveryRun)
+deactivate DR
+deactivate DRR
+deactivate CTRL
+UI --> CLN :Successful operation
+deactivate UI
+deactivate CLN
+@enduml
+@enduml

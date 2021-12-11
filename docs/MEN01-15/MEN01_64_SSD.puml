@@ -1,0 +1,24 @@
+@startuml
+autonumber
+actor "Client" as CLN
+
+activate CLN
+CLN -> ":Platform" : log in as Client
+activate ":Platform"
+":Platform" --> CLN : requests for Client log in data (email and password)
+deactivate ":Platform"
+
+CLN -> ":Platform" : inserts requested data
+activate ":Platform"
+
+":Platform" --> CLN : shows data and requests confirmation
+deactivate ":Platform"
+
+CLN -> ":Platform" : confirms
+activate ":Platform"
+
+":Platform" --> CLN : successful operation
+deactivate ":Platform"
+
+deactivate CLN
+@enduml

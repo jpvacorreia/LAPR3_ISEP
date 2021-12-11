@@ -1,0 +1,44 @@
+@startuml
+'skinparam linetype polyline
+
+
+class Scooter {
+    -NUMBER id_scooter «PK»
+    -double max_Battery_Capacity
+    -double state_Of_Charge
+    -double power_Output
+    -double weight
+    -double max_payload
+    -NUMBER PharmacyID_pharmacy «FK»
+}
+
+class ParkingSlotScootersUsage {
+    -date dateIn «PK»
+    -date dateOut
+    -NUMBER ScooterId_Scooter «PK,FK»
+    -NUMBER ParkingSlotsScootersParkingSlotId_parkingSlot «PK,FK»
+}
+
+class ParkingSlot{
+    -NUMBER ID_parkingSlot «PK»
+    -NUMBER PharmacyID_pharmacy «FK»
+}
+
+class ParkingSlotScooters{
+    -CHAR has_charging_capabilities
+    -NUMBER State_of_use_typeID_state_of_use «FK»
+    -NUMBER ParkingSlotID_parkingSlot «PK,FK»
+}
+
+class State_of_use_type{
+    -NUMBER ID_state_of_use «PK»
+    -VARCHAR2 name_state_of_use
+}
+
+
+Scooter |o--o{ ParkingSlotScootersUsage
+ParkingSlotScootersUsage }o--o| ParkingSlotScooters
+ParkingSlotScooters }o--o| State_of_use_type
+ParkingSlotScooters |o--o| ParkingSlot
+
+@enduml

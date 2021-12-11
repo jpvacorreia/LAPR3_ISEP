@@ -1,0 +1,22 @@
+@startuml
+autonumber
+'hide footbox
+actor "System" as SYS
+
+participant ":Order" as ORD
+
+
+activate SYS
+SYS -> SYS : order is made, processed or delivered
+
+SYS -> ORD : update orders state \n(pending, processing, delivering, delivered)
+activate ORD
+ORD -> ORD : updateState(newState)
+deactivate ORD
+ORD --> SYS : operation sucessfull
+
+deactivate SYS
+
+
+@enduml
+

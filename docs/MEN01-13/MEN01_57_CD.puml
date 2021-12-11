@@ -1,0 +1,66 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+left to right direction
+
+class Platform {
+}
+
+class CreateOrderUI {
+}
+
+class CreateOrderController {
+  +createOrder()
+  +addProductToCart(Product)
+  +confirmedOrder(Order)
+}
+
+
+class CreateOrder {
+  +createOrder()
+  +addProductToCart(Product)
+  +confirmedOrder(Order)
+}
+
+class Pharmacy {
+  -String pharmacyName
+  -String companyName
+  -int NIF
+}
+
+class Order {
+    -String id
+    -list of products
+    +addOrder(Order)
+    +new Order(NIF, cart)
+    +addProductToCart(Product)
+}
+
+class Client {
+    -String name
+    -String email
+    -int NIF
+    -int credits
+}
+
+class Product{
+    -String productType
+    -String productName
+    -double price
+    -double weight
+    +getStock()
+}
+
+CreateOrderUI   ..> CreateOrderController
+CreateOrderController ..> Platform
+CreateOrderController ..> CreateOrder
+CreateOrder ..> Order
+Order "1" -- "1" Client : Of a  >
+Order "1" -- "*" Product : Has >
+Product "*" -- "1" Pharmacy : Of a >
+
+
+
+@enduml
+
+

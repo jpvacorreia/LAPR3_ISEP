@@ -1,0 +1,56 @@
+@startuml
+autonumber
+'hide footbox
+actor "System Administrator" as SADM
+
+participant ":RegisterDroneUI" as UI
+participant ":RegisterDroneController" as CTRL
+participant "rdrone: RegisterDrone" as RDRONE
+participant "drone: Drone" as SCOOT
+
+
+
+activate SADM
+
+SADM -> UI : initiates the Drone register
+activate UI
+UI --> SADM : requests Drone data \n(maxBatteryCapacity,stateOfCharge,powerOutput,\nweight,maxPayload,pharmacyId)
+deactivate UI
+
+SADM -> UI : inserts requested data
+activate UI
+UI -> CTRL : newDrone(maxBatteryCapacity,stateOfCharge,\npowerOutput,weight,maxPayload,pharmacyId)
+activate CTRL
+CTRL -> RDRONE : rdrone=newRegisterDrone()
+activate RDRONE
+deactivate RDRONE
+CTRL -> RDRONE : drone = newDrone(maxBatteryCapacity,stateOfCharge,\npowerOutput,weight,maxPayload,pharmacyId)
+activate RDRONE
+RDRONE -> SCOOT** : drone = newDrone(maxBatteryCapacity,stateOfCharge,\npowerOutput,weight,maxPayload,pharmacyId)
+activate SCOOT
+SCOOT --> SCOOT : create()
+deactivate SCOOT
+deactivate RDRONE
+deactivate CTRL
+UI --> SADM : shows data and asks for confirmation
+deactivate UI
+
+SADM -> UI : confirms
+activate UI
+UI -> CTRL : RegisterDrone()
+activate CTRL
+CTRL -> RDRONE : RegisterDrone(drone)
+activate RDRONE
+RDRONE -> SCOOT : addDrone(drone)
+activate SCOOT
+SCOOT --> SCOOT : addDrone(drone)
+deactivate SCOOT
+
+UI --> SADM : informs the successful operation
+deactivate RDRONE
+deactivate CTRL
+deactivate UI
+deactivate SADM
+
+@enduml
+

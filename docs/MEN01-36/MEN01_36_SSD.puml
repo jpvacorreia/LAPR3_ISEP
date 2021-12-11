@@ -1,0 +1,11 @@
+@startuml
+autonumber
+actor "System" as SYS
+
+activate SYS
+SYS -> SYS : Receives information of client finishing the order
+SYS -> SYS : Begins payment transaction
+SYS -> SYS : Gets client's credit card information
+SYS -> SYS : Makes the payment
+deactivate SYS
+@enduml
